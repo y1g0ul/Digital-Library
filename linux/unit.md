@@ -2,8 +2,8 @@
 created-dt: 2026-01-14 08:30
 tags:
   - review
-sr-due: 2026-01-27
-sr-interval: 8
+sr-due: 2026-02-17
+sr-interval: 21
 sr-ease: 250
 ---
 Это объект [[Linux]], которым управляет [[systemd]].
