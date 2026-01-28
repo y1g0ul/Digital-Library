@@ -2,8 +2,8 @@
 created-dt: 2026-01-15 08:14
 tags:
   - review
-sr-due: 2026-01-28
-sr-interval: 9
+sr-due: 2026-02-20
+sr-interval: 23
 sr-ease: 250
 ---
 **`systemd-journald`** — это единый сервис, который собирает все логи системы.
