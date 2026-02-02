@@ -2,8 +2,8 @@
 created-dt: 2026-01-02 03:50
 tags:
   - review
-sr-due: 2026-02-01
-sr-interval: 17
+sr-due: 2026-03-14
+sr-interval: 40
 sr-ease: 230
 ---
 Утилита в [[Linux]] для создания архивов. 
