@@ -18,6 +18,8 @@ tr [опции] SET1 [SET2]
 ``` bash
 echo "abc123" | tr 'a-z' 'A-Z'      # в верхний регистр
 echo "a  b   c" | tr -s ' '         # сжать пробелы
+echo "aaabbbccc" | tr -s 'abc'      # сжать повторы
 echo "hello123" | tr -d '0-9'       # удалить цифры
 echo "hello" | tr 'aeiou' '*'       # заменить гласные
+echo "abc123" | tr -cd '0-9'        # удалить всё, кроме цифр
 ```
