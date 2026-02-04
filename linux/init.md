@@ -2,8 +2,8 @@
 created-dt: 2026-01-02 03:29
 tags:
   - review
-sr-due: 2026-02-04
-sr-interval: 21
+sr-due: 2026-03-29
+sr-interval: 53
 sr-ease: 250
 ---
 Традиционный [[процесс]] инициализации в [[Linux]] - приёмный отец всех сирот
