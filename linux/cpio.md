@@ -22,3 +22,13 @@ tags:
 |`-A`|добавить в существующий архив|
 |`-F file`|указать файл архива|
 |`--no-absolute-filenames`|убрать абсолютные пути|
+Примеры
+``` bash
+find . -type f | cpio -o > archive.cpio          # создать архив из файлов
+cpio -it < archive.cpio                          # посмотреть содержимое архива
+cpio -id < archive.cpio                          # распаковать архив
+cpio -idv < archive.cpio                         # распаковать с подробным выводом
+cpio -id --no-absolute-filenames < archive.cpio  # безопасная распаковка
+ls *.txt | cpio -o > texts.cpio                  # архивировать выбранные файлы
+```
+
