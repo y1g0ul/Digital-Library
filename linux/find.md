@@ -2,6 +2,9 @@
 created-dt: 2026-02-05 10:45
 tags:
   - review
+sr-due: 2026-02-09
+sr-interval: 3
+sr-ease: 250
 ---
 Команда в [[Linux]] которая ищет файлы и каталоги
 ``` bash
