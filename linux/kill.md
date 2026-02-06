@@ -2,8 +2,8 @@
 created-dt: 2025-08-18 13:04
 tags:
   - review
-sr-due: 2026-02-06
-sr-interval: 22
+sr-due: 2026-04-01
+sr-interval: 54
 sr-ease: 250
 ---
 Команда в [[Linux]] которая позволяет отправить [[сигнал]] [[процесс]]у
