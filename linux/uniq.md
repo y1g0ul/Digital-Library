@@ -2,11 +2,11 @@
 created-dt: 2026-02-03 12:16
 tags:
   - review
-sr-due: 2026-02-07
-sr-interval: 3
+sr-due: 2026-02-19
+sr-interval: 10
 sr-ease: 250
 ---
-Удаление повторяющихся строк в [[Linux]]
+Удаление повторяющихся строк в [[Linux]]. Часто используется с [[sort]]
 
 ``` bash
 uniq [опции] файл

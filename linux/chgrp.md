@@ -2,8 +2,8 @@
 created-dt: 2026-01-06 01:49
 tags:
   - review
-sr-due: 2026-02-08
-sr-interval: 20
+sr-due: 2026-04-01
+sr-interval: 51
 sr-ease: 250
 ---
 Команда в [[Linux]] которая меняет группу файла.

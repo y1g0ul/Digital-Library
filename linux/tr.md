@@ -2,11 +2,11 @@
 created-dt: 2026-02-03 12:01
 tags:
   - review
-sr-due: 2026-02-07
-sr-interval: 3
+sr-due: 2026-02-20
+sr-interval: 11
 sr-ease: 250
 ---
-посимвольное преобразование текста в [[Linux]]
+(от англ. _translate_ — переводить) посимвольное преобразование текста в [[Linux]]
 ``` bash
 tr [опции] SET1 [SET2]
 ```
