@@ -2,8 +2,8 @@
 created-dt: 2025-08-18 09:10
 tags:
   - review
-sr-due: 2026-02-11
-sr-interval: 23
+sr-due: 2026-04-10
+sr-interval: 58
 sr-ease: 250
 ---
 Команда для просмотра файлов в [[Linux]]

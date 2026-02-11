@@ -2,8 +2,8 @@
 created-dt: 2026-01-03 02:14
 tags:
   - review
-sr-due: 2026-02-11
-sr-interval: 6
+sr-due: 2026-02-25
+sr-interval: 14
 sr-ease: 226
 ---
 Утилита для сжатия файлов без потерь.
