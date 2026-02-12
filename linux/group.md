@@ -2,8 +2,8 @@
 created-dt: 2026-01-05 02:44
 tags:
   - review
-sr-due: 2026-02-10
-sr-interval: 22
+sr-due: 2026-04-07
+sr-interval: 55
 sr-ease: 250
 ---
 `root:x:0:`
