@@ -2,8 +2,8 @@
 created-dt: 2026-01-14 09:23
 tags:
   - review
-sr-due: 2026-02-15
-sr-interval: 19
+sr-due: 2026-04-04
+sr-interval: 47
 sr-ease: 250
 ---
 Это основная команда в [[Linux]] для управления всеми [[unit]] [[systemd]].
