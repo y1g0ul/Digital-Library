@@ -2,8 +2,8 @@
 created-dt: 2026-01-19 10:55
 tags:
   - review
-sr-due: 2026-02-13
-sr-interval: 14
+sr-due: 2026-03-24
+sr-interval: 36
 sr-ease: 230
 ---
 Logical Volume Manager - это слой абстракции над дисками в [[Linux]]
