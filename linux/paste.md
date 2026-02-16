@@ -2,8 +2,8 @@
 created-dt: 2026-02-02 10:49
 tags:
   - review
-sr-due: 2026-02-13
-sr-interval: 7
+sr-due: 2026-03-09
+sr-interval: 21
 sr-ease: 250
 ---
 Команда в [[Linux]] которая обьединяет файлы прострочно
