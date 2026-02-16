@@ -2,8 +2,8 @@
 created-dt: 2026-01-13 08:25
 tags:
   - review
-sr-due: 2026-02-15
-sr-interval: 20
+sr-due: 2026-04-08
+sr-interval: 51
 sr-ease: 250
 ---
 Команда для запуска [[container]] из [[image]] в [[docker]].
