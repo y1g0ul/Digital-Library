@@ -2,8 +2,8 @@
 created-dt: 2026-01-15 07:29
 tags:
   - review
-sr-due: 2026-02-13
-sr-interval: 18
+sr-due: 2026-04-05
+sr-interval: 48
 sr-ease: 250
 ---
 это [[unit]]-группа, которая:
