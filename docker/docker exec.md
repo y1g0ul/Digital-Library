@@ -2,8 +2,8 @@
 created-dt: 2026-01-15 09:43
 tags:
   - review
-sr-due: 2026-02-16
-sr-interval: 20
+sr-due: 2026-04-09
+sr-interval: 52
 sr-ease: 250
 ---
 Команда для того что бы выполнить команду в запущенном [[container]] в [[docker]].
