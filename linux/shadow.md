@@ -2,8 +2,8 @@
 created-dt: 2026-01-05 02:42
 tags:
   - review
-sr-due: 2026-02-14
-sr-interval: 25
+sr-due: 2026-04-22
+sr-interval: 65
 sr-ease: 250
 ---
 `y1g0ul:$y$j9T$wPf1WpdPmzFldn/g/0z4W0$.9lWTY9BZ64jWygJ/Ohr6knR0Bm/DSWi3WIzEXPWrL3:20402:0:99999:7:::`
