@@ -68,15 +68,15 @@ graphical.target
 
 Основные команды
 
-| Команда                                        | Что делает                                 |
-| ---------------------------------------------- | ------------------------------------------ |
-| `systemctl list-units --type=target`           | Показывает **активные** таргеты            |
-| `systemctl list-unit-files --type=target`      | Показывает все **установленные** таргеты** |
-| `systemctl get-default`                        | Показывает таргеты **по умолчанию**        |
-| `sudo systemctl set-default graphical.target`  | Устанавливает GUI по умолчанию             |
-| `sudo systemctl set-default multi-user.target` | Устанавливает серверный режим              |
-| `sudo systemctl isolate name.target`           | Переключает систему в указанный таргет     |
-| `systemctl list-dependencies name.target`      | Показывает зависимости таргета             |
-| `systemctl is-active name.target`              | Проверяет, активен ли таргет               |
-| `systemctl is-enabled name.target`             | Проверяет, включён ли таргет               |
-| `systemctl status name.target`                 | Подробный статус таргета                   |
+| Команда                                        | Что делает                                                                                            |
+| ---------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| `systemctl list-units --type=target`           | Показывает **активные** таргеты                                                                       |
+| `systemctl list-unit-files --type=target`      | Показывает все **установленные** таргеты**                                                            |
+| `systemctl get-default`                        | Показывает таргеты **по умолчанию**                                                                   |
+| `sudo systemctl set-default graphical.target`  | Устанавливает GUI по умолчанию                                                                        |
+| `sudo systemctl set-default multi-user.target` | Устанавливает серверный режим                                                                         |
+| `sudo systemctl isolate name.target`           | Переключает систему в указанный таргет. Останавливает все, что не является зависимостью этого таргета |
+| `systemctl list-dependencies name.target`      | Показывает зависимости таргета                                                                        |
+| `systemctl is-active name.target`              | Проверяет, активен ли таргет                                                                          |
+| `systemctl is-enabled name.target`             | Проверяет, включён ли таргет                                                                          |
+| `systemctl status name.target`                 | Подробный статус таргета                                                                              |
