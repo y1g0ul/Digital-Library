@@ -2,8 +2,8 @@
 created-dt: 2026-02-05 11:36
 tags:
   - review
-sr-due: 2026-02-17
-sr-interval: 8
+sr-due: 2026-03-09
+sr-interval: 20
 sr-ease: 250
 ---
 Disk Free показывает свободное и занятое место на файловых системах [[Linux]]

@@ -2,8 +2,8 @@
 created-dt: 2026-01-15 09:55
 tags:
   - review
-sr-due: 2026-02-17
-sr-interval: 21
+sr-due: 2026-04-13
+sr-interval: 55
 sr-ease: 250
 ---
 Это удалит:
