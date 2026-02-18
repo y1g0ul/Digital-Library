@@ -2,8 +2,8 @@
 created-dt: 2026-02-05 10:45
 tags:
   - review
-sr-due: 2026-02-18
-sr-interval: 9
+sr-due: 2026-03-14
+sr-interval: 24
 sr-ease: 250
 ---
 Команда в [[Linux]] которая ищет файлы и каталоги
