@@ -2,8 +2,8 @@
 created-dt: 2026-01-13 09:15
 tags:
   - review
-sr-due: 2026-02-19
-sr-interval: 24
+sr-due: 2026-04-19
+sr-interval: 59
 sr-ease: 250
 ---
 Команда для удаления [[image]] в [[docker]].
