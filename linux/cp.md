@@ -2,8 +2,8 @@
 created-dt: 2025-12-09 10:06
 tags:
   - review
-sr-due: 2026-02-21
-sr-interval: 33
+sr-due: 2026-04-27
+sr-interval: 64
 sr-ease: 190
 ---
 Команда в [[Linux]] для копирования. 
