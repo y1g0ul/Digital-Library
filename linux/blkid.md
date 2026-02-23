@@ -2,8 +2,8 @@
 created-dt: 2026-01-17 08:51
 tags:
   - review
-sr-due: 2026-02-23
-sr-interval: 23
+sr-due: 2026-04-22
+sr-interval: 58
 sr-ease: 250
 ---
 Это утилита в [[Linux]] которая показывает идентификаторы блочных устройств.
