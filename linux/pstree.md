@@ -8,31 +8,26 @@ sr-ease: 250
 ---
 Команда в [[Linux]] которая выводит дерево [[процесс]]ов со взаимосвязями(кто кого запустил)
 
-```bash
-user@serv:~$ pstree
-systemd─┬─ModemManager───3*[{ModemManager}]
-        ├─agetty
-        ├─containerd───8*[{containerd}]
-        ├─cron
-        ├─dbus-daemon
-        ├─dockerd───10*[{dockerd}]
-        ├─fwupd───5*[{fwupd}]
-        ├─gpg-agent
-        ├─multipathd───6*[{multipathd}]
-        ├─polkitd───3*[{polkitd}]
-        ├─rsyslogd───3*[{rsyslogd}]
-        ├─sshd─┬─sshd───sshd─┬─bash───pstree
-        │      │             └─bash───sleep
-        │      └─sshd───sshd───sftp-server
-        ├─systemd───(sd-pam)
-        ├─systemd-journal
-        ├─systemd-logind
-        ├─systemd-network
-        ├─systemd-resolve
-        ├─systemd-timesyn───{systemd-timesyn}
-        ├─systemd-udevd
-        ├─udisksd───5*[{udisksd}]
-        ├─unattended-upgr───{unattended-upgr}
-        └─upowerd───3*[{upowerd}]
+`pstree [опции] [PID|user]`
+Если [[PID]] не указан — отображается всё дерево от `init/systemd`.
 
+|Опция|Описание|
+|---|---|
+|`-p`|Показать PID процессов|
+|`-u`|Показать владельца процесса|
+|`-a`|Показать аргументы командной строки|
+|`-h`|Подсветить текущий процесс|
+|`-n`|Сортировать по PID|
+|`-c`|Не объединять одинаковые процессы|
+|`-l`|Не обрезать длинные строки|
+|`-s`|Показать путь к указанному PID|
+``` bash
+pstree                     # показать всё дерево процессов
+pstree -p                  # дерево с PID
+pstree -u                  # показать владельцев процессов
+pstree -a                  # показать аргументы запуска
+pstree user                # процессы пользователя user
+pstree -p 1234             # дерево, начиная с PID 1234
+pstree -s 1234             # путь от root до PID 1234
 ```
+
