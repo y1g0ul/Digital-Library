@@ -2,8 +2,8 @@
 created-dt: 2026-01-13 08:05
 tags:
   - review
-sr-due: 2026-02-25
-sr-interval: 23
+sr-due: 2026-04-23
+sr-interval: 57
 sr-ease: 250
 ---
 Команда для просмотра скачанных [[image]] в [[docker]].
