@@ -2,8 +2,8 @@
 created-dt: 2026-01-22 07:52
 tags:
   - review
-sr-due: 2026-03-01
-sr-interval: 24
+sr-due: 2026-05-01
+sr-interval: 60
 sr-ease: 250
 ---
 Система управления пакетами в [[Linux]].
