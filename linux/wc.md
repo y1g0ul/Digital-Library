@@ -2,8 +2,8 @@
 created-dt: 2026-01-29 08:29
 tags:
   - review
-sr-due: 2026-03-04
-sr-interval: 21
+sr-due: 2026-04-25
+sr-interval: 52
 sr-ease: 250
 ---
 Команда в [[Linux]] которая выводит **количество** строк, слов и букв
