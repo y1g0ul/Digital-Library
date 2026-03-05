@@ -2,8 +2,8 @@
 created-dt: 2026-01-26 10:59
 tags:
   - review
-sr-due: 2026-03-05
-sr-interval: 24
+sr-due: 2026-05-07
+sr-interval: 63
 sr-ease: 250
 ---
 Низкоуровневый менеджер пакетов в Red Hat [[Linux]] системах

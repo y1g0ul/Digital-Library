@@ -2,8 +2,8 @@
 created-dt: 2026-02-05 11:10
 tags:
   - review
-sr-due: 2026-03-05
-sr-interval: 17
+sr-due: 2026-04-16
+sr-interval: 42
 sr-ease: 246
 ---
 Архиватор [[Linux]], который работает  со списком файлов из stdin.
