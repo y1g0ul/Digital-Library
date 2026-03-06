@@ -90,5 +90,3 @@
 def main():
 	print("Hello world")
 ```
-
-123
