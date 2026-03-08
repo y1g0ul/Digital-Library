@@ -2,8 +2,8 @@
 created-dt: 2026-02-05 11:39
 tags:
   - review
-sr-due: 2026-03-08
-sr-interval: 19
+sr-due: 2026-04-25
+sr-interval: 48
 sr-ease: 250
 ---
 Disk Usage показывает размер файлов и каталогов на диске.
