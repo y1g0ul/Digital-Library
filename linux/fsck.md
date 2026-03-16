@@ -1,6 +1,7 @@
 ---
-created-dt: "2026-03-16 11:01"
+created-dt: 2026-03-16 11:01
 tags:
+  - review
 ---
 File System Check - утилита в [[Linux]] для проверки и исправления файловых систем.
 
