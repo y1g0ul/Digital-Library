@@ -26,3 +26,17 @@ debugfs [опции] устройство
 |`dump`|извлечь файл из файловой системы|
 |`rm`|удалить файл|
 |`quit`|выйти|
+``` bash
+sudo debugfs /dev/sdb1                     # открыть файловую систему
+
+sudo debugfs -R "ls /" /dev/sdb1           # показать содержимое корня
+
+sudo debugfs -R "stat /file.txt" /dev/sdb1 # информация об inode файла
+
+sudo debugfs -R "cat /file.txt" /dev/sdb1  # вывести содержимое файла
+
+sudo debugfs -R "dump /file.txt file.txt" /dev/sdb1  # извлечь файл из ФС
+
+sudo debugfs -w /dev/sdb1                  # открыть ФС с возможностью записи
+```
+
