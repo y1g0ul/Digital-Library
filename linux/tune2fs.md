@@ -2,9 +2,9 @@
 created-dt: 2026-03-18 11:07
 tags:
   - review
-sr-due: 2026-03-22
-sr-interval: 3
-sr-ease: 250
+sr-due: 2026-03-24
+sr-interval: 2
+sr-ease: 230
 ---
 Утилита в [[Linux]] для изменения параметров файловых систем **`ext2/ext3/ext4`**
 

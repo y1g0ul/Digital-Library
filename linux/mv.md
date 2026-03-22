@@ -2,8 +2,8 @@
 created-dt: 2025-12-09 10:06
 tags:
   - review
-sr-due: 2026-03-22
-sr-interval: 62
+sr-due: 2026-08-24
+sr-interval: 155
 sr-ease: 250
 ---
 Команда в [[Linux]] для переименования и перемещения.
