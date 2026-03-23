@@ -2,8 +2,8 @@
 created-dt: 2025-12-05 08:55
 tags:
   - review
-sr-due: 2026-03-23
-sr-interval: 65
+sr-due: 2026-09-02
+sr-interval: 163
 sr-ease: 250
 ---
 Команда в [[Linux]] для удаления файлов.
