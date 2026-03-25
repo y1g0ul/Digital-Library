@@ -2,8 +2,8 @@
 created-dt: 2025-12-17 03:16
 tags:
   - review
-sr-due: 2026-03-24
-sr-interval: 59
+sr-due: 2026-08-21
+sr-interval: 149
 sr-ease: 250
 ---
 В [[Linux]] Бит S для директории называется сгит (setgit).
