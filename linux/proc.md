@@ -2,8 +2,8 @@
 created-dt: 2026-01-12 08:08
 tags:
   - review
-sr-due: 2026-03-28
-sr-interval: 47
+sr-due: 2026-07-24
+sr-interval: 117
 sr-ease: 250
 ---
 Это иерархическое представление всех процессов в системе [[Linux]].

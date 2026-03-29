@@ -2,8 +2,8 @@
 created-dt: 2025-12-16 08:56
 tags:
   - review
-sr-due: 2026-03-29
-sr-interval: 62
+sr-due: 2026-08-31
+sr-interval: 155
 sr-ease: 250
 ---
 `ln myfile myfile2` - Создать еще один файл с названием `myfile2` который является хард ссылкой ссылающийся на ту область памяти что и `myfile`. 
