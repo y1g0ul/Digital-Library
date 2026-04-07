@@ -2,8 +2,8 @@
 created-dt: 2025-11-24 17:42
 tags:
   - review
-sr-due: 2026-04-07
-sr-interval: 81
+sr-due: 2026-10-30
+sr-interval: 206
 sr-ease: 254
 ---
 `git clone`  - это команда в [[git]], которая создаст локальную копию удалённого репозитория.
