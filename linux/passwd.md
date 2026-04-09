@@ -2,8 +2,8 @@
 created-dt: 2026-01-05 02:41
 tags:
   - review
-sr-due: 2026-04-09
-sr-interval: 57
+sr-due: 2026-08-28
+sr-interval: 141
 sr-ease: 250
 ---
 `user1:x:1001:1001:UserOne:/home/user1:/bin/bash`
