@@ -2,8 +2,8 @@
 created-dt: 2026-03-16 11:27
 tags:
   - review
-sr-due: 2026-04-08
-sr-interval: 3
+sr-due: 2026-04-12
+sr-interval: 4
 sr-ease: 130
 ---
 Утилита в [[Linux]] для низкоуровневой работы с файловой системой **`ext2/ext3/ext4`**
