@@ -2,8 +2,8 @@
 created-dt: 2025-12-05 08:30
 tags:
   - review
-sr-due: 2026-04-09
-sr-interval: 84
+sr-due: 2026-11-22
+sr-interval: 227
 sr-ease: 270
 ---
 Команда в [[Linux]] которая показывает рабочую директорию.
