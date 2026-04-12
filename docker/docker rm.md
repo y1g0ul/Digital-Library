@@ -2,8 +2,8 @@
 created-dt: 2026-01-13 09:03
 tags:
   - review
-sr-due: 2026-04-11
-sr-interval: 54
+sr-due: 2026-08-26
+sr-interval: 136
 sr-ease: 250
 ---
 Команда для удаления [[container]] в [[docker]].
