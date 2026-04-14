@@ -2,8 +2,8 @@
 created-dt: 2025-12-16 09:24
 tags:
   - review
-sr-due: 2026-04-14
-sr-interval: 73
+sr-due: 2026-10-14
+sr-interval: 183
 sr-ease: 250
 ---
 Команда в [[Linux]] которая выводит информацию из [[inode]] в человеко-читаемом формате.
