@@ -2,8 +2,8 @@
 created-dt: 2026-01-22 06:44
 tags:
   - review
-sr-due: 2026-04-14
-sr-interval: 50
+sr-due: 2026-08-15
+sr-interval: 123
 sr-ease: 250
 ---
 Утилита для управления пакетами в Debian системах [[Linux]].
