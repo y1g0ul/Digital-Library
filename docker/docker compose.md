@@ -2,8 +2,8 @@
 created-dt: 2026-01-22 09:42
 tags:
   - review
-sr-due: 2026-04-17
-sr-interval: 51
+sr-due: 2026-08-23
+sr-interval: 128
 sr-ease: 250
 ---
 Инструмент для управления множеством [[container]]s как одним приложением в [[docker]]. 

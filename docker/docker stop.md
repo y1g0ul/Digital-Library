@@ -2,8 +2,8 @@
 created-dt: 2026-01-13 08:50
 tags:
   - review
-sr-due: 2026-04-17
-sr-interval: 58
+sr-due: 2026-09-09
+sr-interval: 145
 sr-ease: 250
 ---
 Команда для остановки [[container]] в [[docker]].
