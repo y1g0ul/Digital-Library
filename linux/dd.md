@@ -2,8 +2,8 @@
 created-dt: 2026-02-05 11:31
 tags:
   - review
-sr-due: 2026-04-19
-sr-interval: 44
+sr-due: 2026-08-07
+sr-interval: 110
 sr-ease: 250
 ---
 Data duplicator/definition низкоуровневая утилита в [[Linux]] для **копирования** и **преобразования** данных.  
