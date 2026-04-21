@@ -2,8 +2,8 @@
 created-dt: 2026-01-29 08:28
 tags:
   - review
-sr-due: 2026-04-21
-sr-interval: 50
+sr-due: 2026-08-24
+sr-interval: 125
 sr-ease: 250
 ---
 Команда в [[Linux]] которая выводит **первые** 10 строк файла.
