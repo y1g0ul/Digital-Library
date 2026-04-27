@@ -2,8 +2,8 @@
 created-dt: 2026-02-02 10:19
 tags:
   - review
-sr-due: 2026-04-27
-sr-interval: 50
+sr-due: 2026-08-30
+sr-interval: 125
 sr-ease: 250
 ---
 Обьединение строк из файлов в [[Linux]] по общему ключу
