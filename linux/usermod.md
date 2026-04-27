@@ -2,6 +2,9 @@
 created-dt: 2026-04-23 09:34
 tags:
   - review
+sr-due: 2026-04-29
+sr-interval: 3
+sr-ease: 250
 ---
 Команда в [[Linux]] для изменения параметров пользователя
 ``` bash

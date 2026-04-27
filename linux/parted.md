@@ -2,8 +2,8 @@
 created-dt: 2026-03-09 11:32
 tags:
   - review
-sr-due: 2026-04-26
-sr-interval: 14
+sr-due: 2026-05-25
+sr-interval: 29
 sr-ease: 210
 ---
 Утилита в  [[Linux]] для создания, удаленя и изменения разделов диска.

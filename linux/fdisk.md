@@ -2,8 +2,8 @@
 created-dt: 2026-01-16 08:29
 tags:
   - review
-sr-due: 2026-04-26
-sr-interval: 63
+sr-due: 2026-10-01
+sr-interval: 158
 sr-ease: 250
 ---
 Утилита для работы с дисками и разделами в [[Linux]].
