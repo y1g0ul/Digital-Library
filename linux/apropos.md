@@ -2,8 +2,8 @@
 created-dt: 2025-11-18 12:11
 tags:
   - review
-sr-due: 2026-04-28
-sr-interval: 103
+sr-due: 2027-01-31
+sr-interval: 278
 sr-ease: 270
 ---
 Команда в [[Linux]] которая ищет по ключевым словам.
