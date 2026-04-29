@@ -25,6 +25,10 @@ echo the arguments are $@
 
 **`Подстановка команд`**
 
+``` bash
+docker stop $(docker ps -q)
+```
+
 Перед выполнением некоторых действий может потребоваться проверить, действительно ли переменной присвоено некоторое значение. Для этого Bash предлагает операторы подстановки:
 
 - `${parameter:-value}`: показывает значение value, если параметр не определен.
@@ -58,3 +62,9 @@ bash: VOID: Variable VOID is undefined
 ```
 
 - `${parameter:+value}`: показывает значение value, если параметр имеет значение. Если у параметра нет значения, ничего не происходит.
+``` bash
+echo ${NIL:+Variable NIL is defined}
+Variable NIL is defined
+echo ${VOID:+Variable VOID is defined}
+
+```
