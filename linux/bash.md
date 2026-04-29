@@ -140,7 +140,7 @@ Directory: /home/eugene/Documents
 ``` bash
 if [ условие ]; then  
 	echo "Условие выполнено" 
-elif [ условие 2 ];then
+elif [ условие 2 ]; then
     echo "Условие 2 выполнено"
 else  
 	echo "Условие не выполнено"  
