@@ -139,14 +139,11 @@ Directory: /home/eugene/Documents
 
 ``` bash
 if [ условие ]; then  
-echo "Условие выполнено" 
-
+	echo "Условие выполнено" 
 elif [ условие 2 ];then
     echo "Условие 2 выполнено"
-    
 else  
-echo "Условие не выполнено"  
-
+	echo "Условие не выполнено"  
 fi
 ```
 
