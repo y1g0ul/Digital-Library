@@ -2,8 +2,8 @@
 created-dt: 2026-04-29 07:51
 tags:
   - review
-sr-due: 2026-05-02
-sr-interval: 1
+sr-due: 2026-05-06
+sr-interval: 3
 sr-ease: 208
 ---
 Это командная [[оболочка]] в [[Linux]]. Она содержит различный синтаксис.
