@@ -2,6 +2,9 @@
 created-dt: 2026-05-03 11:30
 tags:
   - review
+sr-due: 2026-05-06
+sr-interval: 2
+sr-ease: 246
 ---
 В [[bash]]
 ``` bash
@@ -23,3 +26,25 @@ case выражение in
     ;;
 esac
 ```
+
+``` bash
+#!/bin/bash
+# Скрипт, который использует конструкцию case
+# переменная, значение которой сравнивается с набором значений
+num=2
+case $num in
+    1)
+    echo "num = 1"
+    ;;
+    2)
+    echo "num = 2"
+    ;;
+    3)
+    echo "num = 3"
+    ;;
+esac
+ 
+echo "Конец программы"
+exit 0
+```
+
