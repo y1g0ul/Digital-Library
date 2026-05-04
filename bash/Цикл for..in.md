@@ -11,5 +11,11 @@ do
 done 
 ```
 
-``` bas
+``` bash
+#!/bin/bash
+for i in $@
+do
+    ping -c 1 192.168.1.$i
+done
+exit 0
 ```
