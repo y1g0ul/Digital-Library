@@ -1,10 +1,7 @@
 ---
-created-dt: 2026-05-03 11:30
+created-dt: 2026-05-06 11:31
 tags:
   - review
-sr-due: 2026-05-06
-sr-interval: 2
-sr-ease: 246
 ---
 В [[bash]]
 ``` bash
