@@ -2,8 +2,8 @@
 created-dt: 2026-04-23 09:41
 tags:
   - review
-sr-due: 2026-05-07
-sr-interval: 8
+sr-due: 2026-05-27
+sr-interval: 20
 sr-ease: 250
 ---
 Команда в [[Linux]] для создания нового пользователя
