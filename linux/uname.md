@@ -2,8 +2,8 @@
 created-dt: 2026-01-28 10:39
 tags:
   - review
-sr-due: 2026-05-11
-sr-interval: 63
+sr-due: 2026-10-20
+sr-interval: 160
 sr-ease: 250
 ---
 Выводит информацию о [[Linux]] системе

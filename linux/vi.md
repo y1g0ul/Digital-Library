@@ -2,8 +2,8 @@
 created-dt: 2026-03-05 10:19
 tags:
   - review
-sr-due: 2026-05-11
-sr-interval: 23
+sr-due: 2026-07-07
+sr-interval: 55
 sr-ease: 230
 ---
 Классический текстовый редактор в [[Linux]], работающий в терминале.  
