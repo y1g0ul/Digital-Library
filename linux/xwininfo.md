@@ -2,8 +2,8 @@
 created-dt: 2026-04-30 18:14
 tags:
   - review
-sr-due: 2026-05-12
-sr-interval: 8
+sr-due: 2026-06-04
+sr-interval: 22
 sr-ease: 250
 ---
 Команда в [[Linux]] (X11) для получения информации об окнах
