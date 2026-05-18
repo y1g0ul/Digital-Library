@@ -2,6 +2,9 @@
 created-dt: 2026-05-13 11:08
 tags:
   - review
+sr-due: 2026-05-21
+sr-interval: 3
+sr-ease: 250
 ---
 Инструмент в [[Linux]] для просмотра и отладки работы [[udev]].
 
