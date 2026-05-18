@@ -2,8 +2,8 @@
 created-dt: 2026-05-04 15:46
 tags:
   - review
-sr-due: 2026-05-18
-sr-interval: 9
+sr-due: 2026-06-10
+sr-interval: 23
 sr-ease: 250
 ---
 Команда в [[Linux]] для обработки текста по шаблонам и полям
