@@ -2,6 +2,9 @@
 created-dt: 2026-05-06 11:31
 tags:
   - review
+sr-due: 2026-05-21
+sr-interval: 2
+sr-ease: 248
 ---
 В [[bash]]
 ``` bash
