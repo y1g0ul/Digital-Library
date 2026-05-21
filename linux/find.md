@@ -38,9 +38,3 @@ find . -maxdepth 1 -type f           # искать только в текуще
 find . -name "*.log" -exec rm {} \;  # удалить найденные .log
 ```
 
-Subject: CN = localhost, O = Acme, OU = IT Department, L = Geneva, ST = Geneva, C = CH
-
-openssl req -x509 -newkey rsa:4096 \
--keyout /etc/nginx/ssl/nginx.key  \
--out /etc/nginx/ssl/nginx.crt \
--days 365
