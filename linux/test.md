@@ -2,8 +2,8 @@
 created-dt: 2026-04-29 08:35
 tags:
   - review
-sr-due: 2026-05-28
-sr-interval: 18
+sr-due: 2026-07-21
+sr-interval: 50
 sr-ease: 250
 ---
 Команда в [[Linux]] для проверки условий (файлы, строки, числа)
