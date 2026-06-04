@@ -2,8 +2,8 @@
 created-dt: 2026-02-03 12:01
 tags:
   - review
-sr-due: 2026-06-04
-sr-interval: 73
+sr-due: 2026-12-04
+sr-interval: 183
 sr-ease: 250
 ---
 (от англ. _translate_ — переводить) посимвольное преобразование текста в [[Linux]]
