@@ -1,0 +1,1 @@
+Что бы на [[Linux]] изменить свой TTL, нужно применить команду `sudo sysctl -w net.ipv4.ip_default_ttl=65`.
