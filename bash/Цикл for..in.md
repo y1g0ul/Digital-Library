@@ -2,8 +2,8 @@
 created-dt: 2026-05-06 11:27
 tags:
   - review
-sr-due: 2026-06-10
-sr-interval: 16
+sr-due: 2026-07-20
+sr-interval: 40
 sr-ease: 248
 ---
 В [[bash]]
