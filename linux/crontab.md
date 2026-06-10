@@ -2,8 +2,8 @@
 created-dt: 2026-06-02 09:59
 tags:
   - review
-sr-due: 2026-06-10
-sr-interval: 5
+sr-due: 2026-06-21
+sr-interval: 11
 sr-ease: 246
 ---
 Команда в [[Linux]] для управления пользовательскими заданиями [[cron]].
