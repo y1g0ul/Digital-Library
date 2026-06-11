@@ -17,6 +17,7 @@ chronyd [опции]
 | `-n` | не переходить в фоновый режим                  |
 | `-x` | не изменять системные часы                     |
 | `-t` | ограничить время ожидания источников           |
+Конфиг находится в `/etc/chrony/chrony.conf`.
 ``` bash
 sudo chronyd                  # запустить демон
 
@@ -28,4 +29,18 @@ sudo chronyd -Q               # проверить смещение времен
 
 sudo chronyd -f /etc/chrony/chrony.conf
 # использовать свой конфиг
+```
+
+Управление осуществляется через **`chronyc`**
+
+``` bash
+chronyc tracking              # состояние синхронизации
+
+chronyc sources               # источники времени
+
+chronyc sourcestats           # статистика источников
+
+chronyc makestep              # немедленная коррекция времени
+
+chronyc activity              # активность источников
 ```
