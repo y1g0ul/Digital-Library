@@ -49,4 +49,4 @@ sudo date -s "2026-06-09 12:00:00"
 TZ=Asia/Singapore date        # время для указанного часового пояса
 ```
 
-Главный файл - `/etc/localtime`. Это ссылка на временную зону `/etc/localtime -> /usr/share/zoneinfo/Asia/Bangkok `. 
+Главный файл - `/etc/localtime`. Это ссылка на временную зону `/etc/localtime -> /usr/share/zoneinfo/Asia/Bangkok `.  Еще есть файл `/etc/timezone`. 
