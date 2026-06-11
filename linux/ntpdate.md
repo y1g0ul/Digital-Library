@@ -2,6 +2,9 @@
 created-dt: 2026-06-11 11:13
 tags:
   - review
+sr-due: 2026-06-15
+sr-interval: 3
+sr-ease: 250
 ---
 Команда в [[Linux]] для синхронизации системного времени с NTP-сервером.
 ``` bash

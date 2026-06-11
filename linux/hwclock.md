@@ -2,6 +2,9 @@
 created-dt: 2026-06-11 10:26
 tags:
   - review
+sr-due: 2026-06-15
+sr-interval: 3
+sr-ease: 250
 ---
 Команда в [[Linux]] для работы с аппаратными часами (RTC)
 ``` bash
