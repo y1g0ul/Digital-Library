@@ -43,3 +43,22 @@ logrotate [опции] конфигурация
 }
 ```
 
+``` bash
+/var/log/app.log {
+    daily
+    rotate 7
+    compress
+}
+```
+
+``` bash
+/var/log/nginx/*.log {
+    weekly
+    rotate 4
+
+    postrotate
+        systemctl reload nginx
+    endscript
+}
+```
+
