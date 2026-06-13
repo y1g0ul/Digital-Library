@@ -15,15 +15,4 @@ logrotate [опции] конфигурация
 | `-v`      | подробный вывод                       |
 | `-s`      | указать файл состояния                |
 | `--state` | то же самое, что `-s`                 |
-``` bash
-logrotate /etc/logrotate.conf
-
-logrotate -d /etc/logrotate.conf    # проверить конфигурацию
-
-logrotate -f /etc/logrotate.conf    # принудительная ротация
-
-logrotate -v /etc/logrotate.conf    # подробный вывод
-
-logrotate -s /tmp/state /etc/logrotate.conf    # использовать свой state-файл
-```
-
+Основной конфигурационный файл `/etc/logrotate.conf`. Дополнительные конфигурации `/etc/logrotate.d/`. 
