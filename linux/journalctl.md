@@ -18,8 +18,9 @@ sr-ease: 230
     - [[unit]]
 
 Папки хранения:
-- `/run/log/journal/` — временно (пропадают после reboot)
-- `/var/log/journal/` — постоянно (если директория существует)
+- `/run/log/journal/` - временно (пропадают после reboot)
+- `/var/log/journal/` - постоянно (если директория существует)
+- `/etc/systemd/journald.conf` - настройки
 
 ```
 journalctl [OPTIONS] [-p PRIORITY] [-u UNIT] [--since TIME] [--until TIME] [_MATCHES...]
