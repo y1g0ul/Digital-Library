@@ -49,8 +49,6 @@ journalctl [OPTIONS] [-p PRIORITY] [-u UNIT] [--since TIME] [--until TIME] [_MAT
 - **`[--since / --until TIME]`** — фильтр по времени
 - **`[_MATCHES...]`** — фильтры по PID, UID, имени процесса или бинарнику
 
-
-
 Ключи управления выводом (OPTIONS)
 
 | Ключ           | Что делает                         |
