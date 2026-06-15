@@ -47,10 +47,14 @@ logrotate [опции] конфигурация
 ```
 
 ``` bash
-/var/log/app.log {
-    daily
-    rotate 7
-    compress
+/var/log/dpkg.log {
+	monthly
+	rotate 12
+	compress
+	delaycompress
+	missingok
+	notifempty
+	create 644 root root
 }
 ```
 
