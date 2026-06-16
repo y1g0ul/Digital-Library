@@ -54,8 +54,11 @@ rsyslog получает сообщения от:
 
 Формат записи в `/etc/rsyslog.d/50-default.conf`:
 ``` bash
-селектор     действие
-*.info        /var/log/messages # Все сообщения уровня info и выше записывать в /var/log/messages
+facility.priority    destination
+auth.* var/log/auth.log # Все уровни для auth
+auth.=info var/log/auth.log # Только info
+auth.!info  var/log/auth.log # Всё кроме info
+auth.warning  var/log/auth.log # Начиная с уровня и выше
 *.*    /var/log/all.log # Все сообщения
 *.err  /var/log/errors.log # Только ошибки
 authpriv.*  /var/log/auth.log # Журнал аутентификации
