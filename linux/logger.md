@@ -37,4 +37,7 @@ logger -p local0.info "Application started"
 logger -f message.txt
 
 echo "Test" | logger
+
+logger --server 192.168.1.10 --udp \
+"Test message"
 ```
