@@ -6,7 +6,7 @@ sr-due: 2026-09-24
 sr-interval: 153
 sr-ease: 250
 ---
-Команда для того что бы посмотреть логи [[container]] в [[docker]].
+Команда для того что бы посмотреть [[логи]] [[container]] в [[docker]].
 ```
 docker logs [OPTIONS] CONTAINER
 ```
