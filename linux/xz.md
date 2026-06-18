@@ -2,8 +2,8 @@
 created-dt: 2026-02-05 12:14
 tags:
   - review
-sr-due: 2026-06-18
-sr-interval: 74
+sr-due: 2026-12-03
+sr-interval: 168
 sr-ease: 228
 ---
 Ещё один популярный компрессор в [[Linux]]. 
