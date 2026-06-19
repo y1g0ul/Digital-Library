@@ -2,8 +2,8 @@
 created-dt: 2026-05-23 11:45
 tags:
   - review
-sr-due: 2026-06-19
-sr-interval: 6
+sr-due: 2026-07-04
+sr-interval: 15
 sr-ease: 230
 ---
 Команда в [[Linux]] для работы с TCP/UDP соединениями (netcat)
