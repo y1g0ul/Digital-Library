@@ -2,9 +2,9 @@
 created-dt: 2026-06-01 11:31
 tags:
   - review
-sr-due: 2026-06-19
-sr-interval: 5
-sr-ease: 230
+sr-due: 2026-06-22
+sr-interval: 3
+sr-ease: 210
 ---
 Команда в [[Linux]] для получения записей из системных баз данных (NSS)
 ``` bash
