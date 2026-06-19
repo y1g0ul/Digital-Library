@@ -2,8 +2,8 @@
 created-dt: 2026-06-16 10:22
 tags:
   - review
-sr-due: 2026-06-19
-sr-interval: 2
+sr-due: 2026-06-24
+sr-interval: 5
 sr-ease: 246
 ---
 Служба в [[Linux]] для сбора, фильтрации, хранения и пересылки системных журналов
@@ -58,6 +58,7 @@ rsyslog получает сообщения от:
 Формат записи в `/etc/rsyslog.d/50-default.conf`:
 ``` bash
 facility.priority    destination
+
 auth.* var/log/auth.log # Все уровни для auth
 auth.=info var/log/auth.log # Только info
 auth.!info  var/log/auth.log # Всё кроме info
