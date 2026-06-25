@@ -2,8 +2,8 @@
 created-dt: 2026-06-12 03:50
 tags:
   - review
-sr-due: 2026-06-25
-sr-interval: 8
+sr-due: 2026-07-15
+sr-interval: 20
 sr-ease: 250
 ---
 Демон в [[Linux]] который синхронизирует время с NTP-серверами. Современный аналог [[ntpd]]. 
