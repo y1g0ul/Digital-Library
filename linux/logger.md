@@ -2,11 +2,11 @@
 created-dt: 2026-06-16 10:28
 tags:
   - review
-sr-due: 2026-06-27
-sr-interval: 3
+sr-due: 2026-07-04
+sr-interval: 7
 sr-ease: 228
 ---
-Команда в [[Linux]] для отправки сообщений в системный журнал ([[rsyslog]]/j[[journalctl]])
+Команда в [[Linux]] для отправки сообщений в системный журнал ([[rsyslog]]/[[journalctl]])
 
 ``` bash
 logger [опции] сообщение
