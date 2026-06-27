@@ -53,6 +53,16 @@ rsync -avn source/ backup/
      backup/
       └── dir/
 ```
+- С завершающим /:
+``` bash 
+rsync -av dir/ backup/
+# Результат: 
+backup/
+├── file1
+├── file2
+└── ...
+```
+
 
 
 
