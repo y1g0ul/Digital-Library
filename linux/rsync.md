@@ -47,10 +47,12 @@ rsync -avn source/ backup/
 
   Особенность работы с каталогами:
   - Без завершающего /:
-     ``` bash
+``` bash
      rsync -av dir backup/
      # Результат:
      backup/
       └── dir/
-      ```
+```
+
+
 
