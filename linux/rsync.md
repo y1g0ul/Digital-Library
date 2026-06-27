@@ -24,4 +24,27 @@ rsync [опции] источник назначение
 | --exclude  | РёСЃРєР»СЋС‡РёС‚СЊ С„Р°Р№Р»С‹ РёР»Рё РєР°С‚Р°Р»РѕРіРё                                                                            |
 | --progress | РїРѕРєР°Р·С‹РІР°С‚СЊ РїСЂРѕРіСЂРµСЃСЃ РїРµСЂРµРґР°С‡Рё                                                                           |
 | -e         | РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊ СѓРєР°Р·Р°РЅРЅСѓСЋ СѓРґР°Р»С‘РЅРЅСѓСЋ РѕР±РѕР»РѕС‡РєСѓ (РЅР°РїСЂРёРјРµСЂ, SSH)                          |
+``` bash
+rsync file.txt backup/
 
+rsync -av source/ backup/
+
+rsync -avh source/ backup/
+
+rsync -avP source/ backup/
+
+rsync -av --delete source/ backup/
+
+rsync -av --exclude "*.log" source/ backup/
+
+rsync -av -e ssh source/ user@server:/backup/
+
+rsync -av user@server:/backup/ local/
+
+rsync -avn source/ backup/
+# пробный запуск
+```
+
+  Особенность работы с каталогами:
+  - Без завершающего /:
+     
