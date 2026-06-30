@@ -2,8 +2,8 @@
 created-dt: 2026-06-01 11:14
 tags:
   - review
-sr-due: 2026-06-30
-sr-interval: 18
+sr-due: 2026-08-15
+sr-interval: 46
 sr-ease: 250
 ---
 Команда в [[Linux]] для изменения параметров группы
