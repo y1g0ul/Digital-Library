@@ -2,8 +2,8 @@
 created-dt: 2026-06-01 10:43
 tags:
   - review
-sr-due: 2026-06-29
-sr-interval: 17
+sr-due: 2026-08-11
+sr-interval: 43
 sr-ease: 250
 ---
 Команда в [[Linux]] для удаления пользователя
