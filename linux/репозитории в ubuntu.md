@@ -1,10 +1,10 @@
 ---
-created-dt: 2026-01-03 02:38
+created-dt: 2026-07-06 12:25
 tags:
   - review
-sr-due: 2026-08-30
-sr-interval: 55
-sr-ease: 230
+sr-due: 2026-07-07
+sr-interval: 1
+sr-ease: 220
 ---
 Репозитории в [[Linux]]— это специальные **сервера­-хранилища** файлов.
 
