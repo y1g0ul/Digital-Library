@@ -2,6 +2,9 @@
 created-dt: 2026-06-19 11:22
 tags:
   - review
+sr-due: 2026-07-08
+sr-interval: 2
+sr-ease: 238
 ---
 Логический адрес устройства в сети.
 
