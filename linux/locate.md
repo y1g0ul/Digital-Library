@@ -2,8 +2,8 @@
 created-dt: 2026-04-09 09:53
 tags:
   - review
-sr-due: 2026-07-09
-sr-interval: 55
+sr-due: 2026-11-26
+sr-interval: 139
 sr-ease: 250
 ---
 утилита в [[Linux]] для быстрого поиска файлов по имени.
