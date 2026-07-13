@@ -2,8 +2,8 @@
 created-dt: 2026-06-11 10:26
 tags:
   - review
-sr-due: 2026-07-13
-sr-interval: 20
+sr-due: 2026-09-02
+sr-interval: 51
 sr-ease: 250
 ---
 Команда в [[Linux]] для работы с аппаратными часами (RTC)
