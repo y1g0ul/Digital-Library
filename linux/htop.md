@@ -2,8 +2,8 @@
 created-dt: 2025-08-17 20:51
 tags:
   - review
-sr-due: 2026-07-14
-sr-interval: 115
+sr-due: 2027-04-28
+sr-interval: 288
 sr-ease: 250
 ---
  Диспетчер задач в [[Linux]]
