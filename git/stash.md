@@ -13,3 +13,9 @@ tags:
 |`git stash apply`|Вернуть stash, но оставить его в списке|
 |`git stash drop`|Удалить stash|
 |`git stash clear`|Удалить все stash|
+
+|Опция|Назначение|
+|---|---|
+|`-u`|Сохранить также untracked-файлы|
+|`-m "message"`|Добавить описание stash|
+|`--keep-index`|Не убирать изменения из staging|
