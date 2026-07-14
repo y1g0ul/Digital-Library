@@ -18,7 +18,7 @@ git branch <опция> <имя_ветки>
 | `-d`  | Удалить ветку                                                                                                                                                |
 | `-D`  | Принудительно удалить ветку                                                                                                                                  |
 | `-m`  | Переименовать текущую ветку                                                                                                                                  |
-| `-f`  | передвинуть [[branch]] на другой [[commit]] (`git branch -f main HEAD~2` - Передвинуть main на 2 [[commit]]а назад от [[git/head\|head]])                    |
+| `-f`  | передвинуть [[branch]] на другой [[commit]] (`git branch -f main HEAD~2` - Передвинуть main на 2 [[commit]]а назад от [[git/HEAD\|head]])                    |
 | `-u`  | указать и отслеживать удаленную [[branch]] (`git branch -u o/main foo`, а если находиться на ветке `foo`, то её можно не указывать - `git branch -u o/main`) |
 
 
