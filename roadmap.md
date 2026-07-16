@@ -209,7 +209,7 @@ tags:
 - [x] GitHub
 - [x] Clone
 - [x] SSH
-- [ ] Fork
+- [x] Fork
 - [x] GitHub Copilot
 - [x] README.md
 - [x] Markdown
