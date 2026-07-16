@@ -45,3 +45,4 @@ sudo smartctl -H /dev/sda # Проверка состояния
 |`Wear_Leveling_Count`|износ SSD|
 |`Media_Wearout_Indicator`|остаточный ресурс SSD|
 Служба называется **smartd**. 
+
