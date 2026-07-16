@@ -26,3 +26,4 @@ git pull origin main # Получить ветку main из origin
 git pull --rebase # Получить изменения через rebase
 git pull --ff-only # Обновить только при fast-forward
 ```
+
