@@ -2,8 +2,8 @@
 created-dt: 2026-05-22 14:27
 tags:
   - review
-sr-due: 2026-07-16
-sr-interval: 32
+sr-due: 2026-10-05
+sr-interval: 81
 sr-ease: 250
 ---
 Команда в [[Linux]] для просмотра сетевых соединений и статистики
