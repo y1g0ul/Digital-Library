@@ -2,6 +2,9 @@
 created-dt: 2026-07-16 15:28
 tags:
   - review
+sr-due: 2026-07-19
+sr-interval: 3
+sr-ease: 250
 ---
 # iostat
 
