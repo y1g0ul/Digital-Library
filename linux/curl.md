@@ -1,40 +1,107 @@
 ---
-created-dt: "2026-05-22 14:32"
+created-dt: 2026-05-22 14:32
 tags:
+  - review
 ---
-Команда в [[Linux]] для отправки HTTP-запросов и работы с URL
+Команда в [[Linux]] для передачи данных по различным сетевым протоколам. Чаще всего используется для отправки HTTP/HTTPS-запросов, тестирования API, загрузки и отправки файлов.
 
-``` bash
-curl -v http://<IP_или_Домен>:<Порт>
+```bash
+curl [опции] URL
 ```
 
 |Ключ|Что делает|
 |---|---|
-|`-O`|сохранить файл с оригинальным именем|
-|`-o`|сохранить вывод в файл|
-|`-L`|следовать редиректам|
-|`-I`|получить только заголовки|
-|`-X`|указать HTTP метод|
-|`-H`|добавить HTTP заголовок|
-|`-d`|отправить данные|
-|`-F`|отправить файл/form-data|
-|`-u`|авторизация user:password|
-|`-A`|задать User-Agent|
-|`-v`|подробный вывод|
-|`-k`|игнорировать SSL ошибки|
-|`--proxy`|использовать proxy|
-|`--limit-rate`|ограничить скорость|
-|`--retry`|повторять запрос при ошибке|
-``` bash
-curl https://example.com             # GET запрос
-curl -O https://site/file.zip        # скачать файл
-curl -o test.html https://example.com # сохранить в файл
-curl -I https://example.com          # только заголовки
-curl -L https://example.com          # следовать редиректам
-curl -X POST -d "name=nikita" https://example.com
-curl -H "Authorization: Bearer TOKEN" https://api.site.com
-curl -u admin:pass https://example.com # basic auth
-curl -F "file=@test.txt" https://example.com/upload
-curl -v https://example.com          # подробный вывод
-curl -k https://self-signed.site     # игнорировать SSL ошибки
+|`-O`|Сохранить файл под исходным именем|
+|`-o`|Сохранить файл под указанным именем|
+|`-L`|Следовать HTTP-перенаправлениям|
+|`-I`|Получить только HTTP-заголовки|
+|`-i`|Показать заголовки вместе с ответом|
+|`-X`|Указать HTTP-метод|
+|`-H`|Добавить HTTP-заголовок|
+|`-d`|Отправить данные (POST)|
+|`-F`|Отправить форму или файл (multipart/form-data)|
+|`-u`|Аутентификация (`user:password`)|
+|`-A`|Указать User-Agent|
+|`-k`|Игнорировать ошибки SSL-сертификата|
+|`-v`|Подробный вывод|
+|`-s`|Тихий режим|
+|`--fail`|Не выводить тело ответа при HTTP-ошибке|
+
+**`Основные примеры`**
+
+```bash
+curl https://example.com # Выполнить GET-запрос
+curl -L https://example.com # Следовать перенаправлениям
+curl -I https://example.com # Получить только заголовки
+curl -i https://example.com # Заголовки + тело ответа
+curl -v https://example.com # Подробный вывод
+```
+
+**`Загрузка файлов`**
+
+```bash
+curl -O https://example.com/file.zip # Сохранить под исходным именем
+curl -o archive.zip https://example.com/file.zip # Сохранить под новым именем
+```
+
+**`Отправка данных`**
+
+```bash
+curl -X POST -d "name=John&age=25" https://example.com # POST-запрос
+curl -H "Content-Type: application/json" -d '{"name":"John"}' https://example.com # Отправить JSON
+```
+
+**`Отправка файлов`**
+
+```bash
+curl -F "file=@photo.jpg" https://example.com/upload # Загрузить файл
+```
+
+**`Аутентификация`**
+
+```bash
+curl -u user:password https://example.com # Basic Authentication
+curl -H "Authorization: Bearer TOKEN" https://example.com # Bearer Token
+```
+
+**`Полезные примеры`**
+
+```bash
+curl ifconfig.me # Узнать внешний IP-адрес
+curl https://example.com | jq # Отформатировать JSON
+curl --fail -s https://example.com # Только успешный ответ
+```
+
+**`Основные HTTP-методы`**
+
+|Метод|Описание|
+|---|---|
+|`GET`|Получение данных|
+|`POST`|Создание ресурса|
+|`PUT`|Полное обновление ресурса|
+|`PATCH`|Частичное обновление ресурса|
+|`DELETE`|Удаление ресурса|
+|`HEAD`|Получение только заголовков|
+
+> [!info] Как работает curl
+> По умолчанию `curl` выполняет **GET-запрос** и выводит ответ в терминал. При использовании `-d` метод автоматически меняется на **POST**, если не указан другой через `-X`.
+
+> [!tip] Полезно знать
+> `curl` — одна из самых популярных утилит для работы с HTTP API. Её используют для:
+>
+> - тестирования REST API;
+> - скачивания файлов;
+> - проверки доступности сайтов;
+> - отправки JSON и форм;
+> - автоматизации в Bash-скриптах.
+
+**`Связанные команды`**
+
+```bash
+wget # Загрузка файлов
+ping # Проверка доступности узла
+dig # DNS-запросы
+ss # Просмотр сетевых соединений
+nc # Работа с TCP/UDP
+jq # Обработка JSON
 ```
