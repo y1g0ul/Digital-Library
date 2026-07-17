@@ -25,18 +25,11 @@ strace [опции] -p PID
 |`-y`|показывать пути файловых дескрипторов|
 ``` bash
 strace ls
-
 strace cat file.txt
-
 strace -p 1234
-
 strace -f ./script.sh
-
 strace -o trace.log ls
-
 strace -c ls
-
 strace -e openat ls
-
 strace -e read,write cat file.txt
 ```
