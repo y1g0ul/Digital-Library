@@ -2,6 +2,9 @@
 created-dt: 2026-07-14 14:40
 tags:
   - review
+sr-due: 2026-07-20
+sr-interval: 3
+sr-ease: 254
 ---
 Команда для просмотра истории [[commit]]ов в [[git]].
 ``` bash

@@ -2,6 +2,9 @@
 created-dt: 2026-07-14 14:24
 tags:
   - review
+sr-due: 2026-07-19
+sr-interval: 2
+sr-ease: 232
 ---
 Команда для переключения между [[branch]] и восстановления файлов в [[git]].
 ``` bash
