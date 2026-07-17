@@ -2,8 +2,8 @@
 created-dt: 2026-01-02 03:26
 tags:
   - review
-sr-due: 2026-07-17
-sr-interval: 118
+sr-due: 2027-05-08
+sr-interval: 295
 sr-ease: 250
 ---
 Команда в [[Linux]] для просмотра [[процесс]]ов
