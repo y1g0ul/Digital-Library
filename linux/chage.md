@@ -2,8 +2,8 @@
 created-dt: 2026-06-01 10:58
 tags:
   - review
-sr-due: 2026-07-17
-sr-interval: 21
+sr-due: 2026-09-03
+sr-interval: 48
 sr-ease: 230
 ---
 Команда в [[Linux]] для управления сроком действия пароля пользователя
