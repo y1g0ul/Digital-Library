@@ -2,8 +2,8 @@
 created-dt: 2026-05-23 11:45
 tags:
   - review
-sr-due: 2026-07-17
-sr-interval: 33
+sr-due: 2026-10-07
+sr-interval: 82
 sr-ease: 250
 ---
 Команда в [[Linux]] для просмотра сокетов и сетевых соединений
