@@ -31,10 +31,12 @@ strace cat file.txt
 strace -p 1234
 strace -f ./script.sh
 strace -o trace.log ls
-strace -c ls
-strace -e openat ls
+strace -c ls # Статистика вызовов
+strace -e openat ls # Показать только обращения к файлам
 strace -e read,write cat file.txt
 ```
+
+**`Часто встречающиеся системные вызовы`**
 
 |Вызов|Описание|
 |---|---|
