@@ -2,8 +2,8 @@
 created-dt: 2026-01-26 11:31
 tags:
   - review
-sr-due: 2026-07-18
-sr-interval: 103
+sr-due: 2027-04-02
+sr-interval: 258
 sr-ease: 250
 ---
 Основной менеджер пакетов в Red Hat [[Linux]] системах

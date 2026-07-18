@@ -2,8 +2,8 @@
 created-dt: 2026-06-11 11:13
 tags:
   - review
-sr-due: 2026-07-18
-sr-interval: 24
+sr-due: 2026-09-16
+sr-interval: 60
 sr-ease: 250
 ---
 Команда в [[Linux]] для единоразовой синхронизации системного времени с NTP-сервером.
