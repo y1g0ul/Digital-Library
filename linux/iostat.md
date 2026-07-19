@@ -2,12 +2,10 @@
 created-dt: 2026-07-16 15:28
 tags:
   - review
-sr-due: 2026-07-19
-sr-interval: 3
-sr-ease: 250
+sr-due: 2026-07-21
+sr-interval: 2
+sr-ease: 230
 ---
-# iostat
-
 Команда которая показывает статистику CPU и устройств ввода-вывода (диски).
 
 ``` bash
