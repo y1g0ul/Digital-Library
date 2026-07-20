@@ -136,7 +136,7 @@ tags:
 - [x] Docker Storage
 - [x] Docker Networks
 - [ ] Docker Registry
-- [ ] Docker Swarm
+- [x] Docker Swarm
 - [ ] Kubernetes
 - [ ] Managed Kubernetes
 - [x] Docker в Windows
