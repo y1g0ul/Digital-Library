@@ -132,10 +132,10 @@ tags:
 - [x] Переменные окружения
 - [x] CMD & ENTRYPOINT
 - [x] Docker Compose
-- [ ] Docker Engine
+- [x] Docker Engine
 - [x] Docker Storage
 - [x] Docker Networks
-- [ ] Docker Registry
+- [x] Docker Registry
 - [x] Docker Swarm
 - [ ] Kubernetes
 - [ ] Managed Kubernetes
