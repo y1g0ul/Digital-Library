@@ -2,8 +2,8 @@
 created-dt: 2026-06-08 10:03
 tags:
   - review
-sr-due: 2026-07-20
-sr-interval: 14
+sr-due: 2026-08-18
+sr-interval: 29
 sr-ease: 210
 ---
 Команда в [[Linux]] для создания и управления терминальными сессиями (terminal multiplexer). Современный аналог [[screen]]. 
