@@ -55,6 +55,9 @@ iptables -P INPUT DROP                       # запретить входящи
 Файлы:
 `/etc/iptables/rules.v4`
 `/etc/iptables/rules.v6`
+Сохранить правила `netfilter-persistent save`
+Загрузить правила `netfilter-persistent reload`
+
 
 Перенаправление порта внутри Linux
 ``` bash
