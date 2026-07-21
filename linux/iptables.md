@@ -58,11 +58,10 @@ iptables -P INPUT DROP                       # запретить входящи
 Сохранить правила `netfilter-persistent save`
 Загрузить правила `netfilter-persistent reload`
 
-
-Перенаправление порта внутри Linux
+Проброс портов:
 ``` bash
+# Внутри Linux 80 → 8080
 iptables -t nat -A PREROUTING -p tcp --dport 80 -j REDIRECT --to-port 8080 
-# 80 → 8080
 ```
 
 # iptables
@@ -168,57 +167,3 @@ SERVER:2222
 iptables -t nat -A PREROUTING -p tcp --dport 2222 -j DNAT --to-destination 192.168.1.10:22
 ```
 
-Теперь подключение к `2222` будет отправляться на SSH внутри сети.
-
-### Перенаправление порта внутри Linux
-
-Например:
-
-```text
-80 → 8080
-```
-
-Команда:
-
-``` bash
-iptables -t nat -A PREROUTING -p tcp --dport 80 -j REDIRECT --to-port 8080
-```
-
----
-
-## Сохранение правил
-
-Правила `iptables` хранятся только в RAM.
-
-После перезагрузки:
-
-``` bash
-reboot
-```
-
-они пропадут.
-
-Для сохранения:
-
-``` bash
-apt install iptables-persistent
-```
-
-Файлы:
-
-```text
-/etc/iptables/rules.v4
-/etc/iptables/rules.v6
-```
-
-Сохранить правила:
-
-``` bash
-netfilter-persistent save
-```
-
-Загрузить правила:
-
-``` bash
-netfilter-persistent reload
-```
