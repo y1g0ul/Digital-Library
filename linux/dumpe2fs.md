@@ -2,8 +2,8 @@
 created-dt: 2026-03-18 10:44
 tags:
   - review
-sr-due: 2026-07-21
-sr-interval: 38
+sr-due: 2026-09-17
+sr-interval: 58
 sr-ease: 150
 ---
 Утилита в [[Linux]] для вывода информации о файловых системах **`ext2/ext3/ext4`**
