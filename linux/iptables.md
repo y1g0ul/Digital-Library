@@ -72,7 +72,7 @@ iptables -P INPUT DROP                       # запретить входящи
 ``` bash
 # Внутри Linux 80 → 8080
 iptables -t nat -A PREROUTING -p tcp --dport 80 -j REDIRECT --to-port 8080 
-# DNAT
+# DNAT внешний порт 2222 отправить на другой хост 192.168.1.10:22
 iptables -t nat -A PREROUTING -p tcp --dport 2222 -j DNAT --to-destination 192.168.1.10:22
 ```
 
