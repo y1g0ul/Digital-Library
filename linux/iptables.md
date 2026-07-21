@@ -3,7 +3,7 @@ created-dt: 2026-07-21 15:35
 tags:
   - review
 ---
-Команда  в [[Linux]] для управления правилами встроенного межсетевого экрана (Firewall) ядра Linux.
+Команда в [[Linux]] для управления правилами встроенного межсетевого экрана (Firewall) ядра Linux.
 
 ``` bash
 iptables <цепочка> <действие> [условия] -j <цель>
@@ -17,8 +17,10 @@ iptables <цепочка> <действие> [условия] -j <цель>
 | `-L`      | показать правила                                  |
 | `-F`      | очистить цепочку                                  |
 | `-P`      | установить политику по умолчанию                  |
+| `-t`      | выбрать таблицу (`filter`, `nat`)                 |
 | `-p`      | указать протокол ([[TCP]], [[UDP]], [[ICMP]])     |
 | `--dport` | порт назначения                                   |
+| `--sport` | порт источника                                    |
 | `-s`      | IP-адрес источника                                |
 | `-d`      | IP-адрес назначения                               |
 | `-j`      | действие над пакетом (`ACCEPT`, `DROP`, `REJECT`) |
@@ -27,27 +29,132 @@ iptables <цепочка> <действие> [условия] -j <цель>
 
 |Цепочка|Назначение|
 |---|---|
-|`INPUT`|входящие пакеты|
-|`OUTPUT`|исходящие пакеты|
+|`INPUT`|входящие пакеты к компьютеру|
+|`OUTPUT`|исходящие пакеты от компьютера|
 |`FORWARD`|пакеты, проходящие через сервер|
+|`PREROUTING`|обработка пакета до маршрутизации (NAT)|
+|`POSTROUTING`|обработка пакета после маршрутизации (NAT)|
+
+Основные действия:
+
+|Действие|Что делает|
+|---|---|
+|`ACCEPT`|разрешить пакет|
+|`DROP`|отбросить пакет без ответа|
+|`REJECT`|заблокировать пакет и отправить ответ|
 
 Примеры:
 
 ``` bash
 iptables -L                                  # показать правила
 iptables -L -n -v                            # показать правила подробно
-iptables -A INPUT -p tcp --dport 22 -j ACCEPT # разрешить SSH
-iptables -A INPUT -p tcp --dport 80 -j ACCEPT # разрешить HTTP
-iptables -A INPUT -p tcp --dport 443 -j ACCEPT # разрешить HTTPS
-iptables -A INPUT -s 192.168.1.10 -j DROP    # заблокировать IP
-iptables -D INPUT 1                          # удалить первое правило
-iptables -F                                  # удалить все правила
-iptables -P INPUT DROP                       # запретить входящие подключения по умолчанию
+
+iptables -A INPUT -p tcp --dport 22 -j ACCEPT   # разрешить SSH
+iptables -A INPUT -p tcp --dport 80 -j ACCEPT   # разрешить HTTP
+iptables -A INPUT -p tcp --dport 443 -j ACCEPT  # разрешить HTTPS
+
+iptables -A INPUT -s 192.168.1.10 -j DROP       # заблокировать IP
+
+iptables -D INPUT 1                             # удалить первое правило
+iptables -F                                     # удалить все правила
+
+iptables -P INPUT DROP                          # запретить входящие подключения
 ```
 
-Правила iptables хранятся в RAM. После перезагрузки пропадают.
+## NAT и проброс портов
+
+NAT (Network Address Translation) изменяет IP-адреса или порты в пакетах.
+
+Используется для:
+
+- выхода локальной сети в интернет
+- проброса портов
+- работы Docker и VPN
+
+Таблица NAT:
+
+``` bash
+iptables -t nat
+```
+
+|Цепочка|Назначение|
+|---|---|
+|`PREROUTING`|изменение входящего трафика до маршрутизации|
+|`POSTROUTING`|изменение исходящего трафика после маршрутизации|
+
+### Проброс порта (DNAT)
+
+Например:
+
+```text
+Внешний порт:
+
+SERVER:2222
+
+↓
+
+Внутренний сервис:
+
+192.168.1.10:22
+```
+
+Команда:
+
+``` bash
+iptables -t nat -A PREROUTING -p tcp --dport 2222 -j DNAT --to-destination 192.168.1.10:22
+```
+
+Теперь подключение к `2222` будет отправляться на SSH внутри сети.
+
+### Перенаправление порта внутри Linux
+
+Например:
+
+```text
+80 → 8080
+```
+
+Команда:
+
+``` bash
+iptables -t nat -A PREROUTING -p tcp --dport 80 -j REDIRECT --to-port 8080
+```
+
+---
+
+## Сохранение правил
+
+Правила `iptables` хранятся только в RAM.
+
+После перезагрузки:
+
+``` bash
+reboot
+```
+
+они пропадут.
+
 Для сохранения:
-`apt install iptables-persistent`
+
+``` bash
+apt install iptables-persistent
+```
+
 Файлы:
-- `/etc/iptables/rules.v4`
-- `/etc/iptables/rules.v6`
+
+```text
+/etc/iptables/rules.v4
+/etc/iptables/rules.v6
+```
+
+Сохранить правила:
+
+``` bash
+netfilter-persistent save
+```
+
+Загрузить правила:
+
+``` bash
+netfilter-persistent reload
+```
