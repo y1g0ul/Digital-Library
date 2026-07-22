@@ -2,6 +2,9 @@
 created-dt: 2026-07-08 11:38
 tags:
   - review
+sr-due: 2026-07-25
+sr-interval: 3
+sr-ease: 250
 ---
 Команда в [[Linux]] для просмотра S.M.A.R.T. информации, диагностики и тестирования HDD, SSD и NVMe-накопителей
 ``` bash
