@@ -2,8 +2,8 @@
 created-dt: 2026-07-14 13:24
 tags:
   - review
-sr-due: 2026-07-23
-sr-interval: 3
+sr-due: 2026-07-30
+sr-interval: 7
 sr-ease: 250
 ---
 Каждый файл в [[git]] может находиться в одном из нескольких состояний.
