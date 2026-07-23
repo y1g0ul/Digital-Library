@@ -72,6 +72,6 @@ ip monitor route # Следить за маршрутами
 > Команда `ip` изменяет настройки **только до следующей перезагрузки**. Чтобы сохранить их постоянно, используют:
 >
 > - [[netplan]]
-> - NetworkManager
+> - [[NetworkManager]]
 > - systemd-networkd
 
