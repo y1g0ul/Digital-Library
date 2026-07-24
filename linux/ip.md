@@ -2,9 +2,9 @@
 created-dt: 2026-07-17 12:50
 tags:
   - review
-sr-due: 2026-07-24
+sr-due: 2026-07-25
 sr-interval: 1
-sr-ease: 190
+sr-ease: 170
 ---
 Команда в [[Linux]] для управления сетевыми интерфейсами, IP-адресами, маршрутами, ARP-таблицей и другими параметрами сети. Входит в пакет **iproute2** и является современной заменой `ifconfig`, `route` и `arp`.
 ``` bash
@@ -73,5 +73,5 @@ ip monitor route # Следить за маршрутами
 >
 > - [[netplan]]
 > - [[NetworkManager]]
-> - systemd-networkd
+> - [[systemd]]-[[networkd]]
 
