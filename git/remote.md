@@ -2,8 +2,8 @@
 created-dt: 2026-07-14 15:28
 tags:
   - review
-sr-due: 2026-09-08
-sr-interval: 28
+sr-due: 2026-11-11
+sr-interval: 64
 sr-ease: 230
 ---
 Команда для управления удалёнными репозиториями  в [[git]].
