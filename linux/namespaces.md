@@ -2,9 +2,9 @@
 created-dt: 2026-09-07 09:28
 tags:
   - review
-sr-due: 2026-09-09
-sr-interval: 2
-sr-ease: 244
+sr-due: 2026-09-10
+sr-interval: 1
+sr-ease: 224
 ---
 Namespaces - механизм ядра [[Linux]], который позволяет **изолировать процессы друг от друга**.
 
@@ -305,19 +305,7 @@ ls -l /proc/$$/ns/
 
 ## Полезные утилиты
 
-Для работы с namespaces используются:
-```bash
-unshare
-```
-
-создаёт новый namespace.
-
-И:
-```bash
-nsenter
-```
-
-позволяет войти в namespace другого процесса.
+Для работы с namespaces используются [[unshare]] создаёт новый namespace и [[nsenter]] позволяет войти в namespace другого процесса.
 
 Например, можно создать shell в новом PID namespace или войти в network namespace контейнера.
 
