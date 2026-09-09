@@ -72,7 +72,7 @@ kworker
 
 ## Что такое kworker
 
-`kworker` - это **kernel thread**, то есть поток, работающий внутри [[kernel|ядра]].
+`kworker` - это **kernel thread**, то есть [[thread|поток]], работающий внутри [[kernel|ядра]].
 
 Посмотреть их можно, например:
 ```bash

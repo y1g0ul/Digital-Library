@@ -27,7 +27,7 @@ sr-ease: 250
 
 **`Tasks`**
 - Tasks - количество процессов.
-- thr - количество потоков (threads).
+- thr - количество потоков ([[thread]]s).
 - kthr - потоки ядра.
 
 **`Load average`**
