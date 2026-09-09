@@ -2,8 +2,8 @@
 created-dt: 2026-08-06 13:57
 tags:
   - review
-sr-due: 2026-09-09
-sr-interval: 19
+sr-due: 2026-10-27
+sr-interval: 48
 sr-ease: 250
 ---
 Конфиденциальное значение, которое GitHub [[Action]]s
