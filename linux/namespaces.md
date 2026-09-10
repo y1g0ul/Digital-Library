@@ -2,8 +2,8 @@
 created-dt: 2026-09-07 09:28
 tags:
   - review
-sr-due: 2026-09-10
-sr-interval: 1
+sr-due: 2026-09-12
+sr-interval: 2
 sr-ease: 224
 ---
 Namespaces - механизм ядра [[Linux]], который позволяет **изолировать процессы друг от друга**.
