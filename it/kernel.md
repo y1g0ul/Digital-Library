@@ -36,7 +36,6 @@ disk
 ## User space и kernel space
 
 Linux разделяет систему на два основных пространства:
-
 ```text
 User space
 Kernel space
