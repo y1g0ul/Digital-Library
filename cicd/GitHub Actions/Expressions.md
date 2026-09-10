@@ -2,9 +2,9 @@
 created-dt: 2026-08-04 09:54
 tags:
   - review
-sr-due: 2026-09-10
-sr-interval: 22
-sr-ease: 250
+sr-due: 2026-09-20
+sr-interval: 10
+sr-ease: 230
 ---
 Выражение, которое GitHub Actions вычисляет во время выполнения [[Workflow]].
 
