@@ -2,9 +2,9 @@
 created-dt: 2026-07-16 15:28
 tags:
   - review
-sr-due: 2026-09-10
-sr-interval: 31
-sr-ease: 230
+sr-due: 2026-09-26
+sr-interval: 16
+sr-ease: 210
 ---
 Команда которая показывает статистику CPU и устройств ввода-вывода (диски).
 
