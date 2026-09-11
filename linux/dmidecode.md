@@ -1,10 +1,10 @@
 ---
-created-dt: 2026-09-11 10:20
+created-dt: 2026-09-11 15:45
 tags:
   - review
-sr-due: 2026-09-11
-sr-interval: .nan
-sr-ease: .nan
+sr-due: 2026-09-13
+sr-interval: 2
+sr-ease: 248
 ---
 Команда в [[Linux]] для чтения аппаратной информации из таблиц DMI/SMBIOS, которые предоставляет [[BIOS и UEFI]].
 
