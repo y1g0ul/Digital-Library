@@ -2,9 +2,9 @@
 created-dt: 2026-09-04 10:46
 tags:
   - review
-sr-due: 2026-09-11
+sr-due: 2026-09-12
 sr-interval: 1
-sr-ease: 168
+sr-ease: 148
 ---
 это [[unit]]-группа, которая:
 - объединяет другие [[unit]] (services, sockets, mounts и т.д.)
