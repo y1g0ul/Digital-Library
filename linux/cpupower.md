@@ -104,7 +104,6 @@ cpupower frequency-info -w
 ```
 
 Обычно вывод содержит:
-
 ```text
 driver
 → драйвер управления частотой
@@ -139,7 +138,7 @@ sudo cpupower frequency-set -u 3GHz
 # установить максимальную частоту
 ```
 
-`cpupower` работает с теми же настройками ядра, которые доступны через [[sysfs]]:
+`cpupower` работает с теми же настройками ядра, которые доступны через [[sys|sysfs]]:
 
 ```text
 /sys/devices/system/cpu/cpufreq/
