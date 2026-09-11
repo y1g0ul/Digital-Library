@@ -1,9 +1,13 @@
-Stage — этап pipeline в GitLab.
+---
+created-dt: 2026-09-11 14:48
+tags:
+  - review
+---
+Этап [[cicd/GitLab/pipeline|pipeline]] в [[GitLab]].
 
-Jobs можно объединять в stages, чтобы задать общий порядок выполнения.
+[[cicd/GitLab/job|job]]s можно объединять в stages, чтобы задать общий порядок выполнения.
 
 Пример:
-
 ```yaml
 stages:
   - test
@@ -12,7 +16,6 @@ stages:
 ```
 
 Pipeline будет идти так:
-
 ```text
 test
  ↓
@@ -22,7 +25,6 @@ deploy
 ```
 
 Job указывает свой stage:
-
 ```yaml
 unit_tests:
   stage: test
@@ -41,7 +43,6 @@ deploy:
 ```
 
 Получается:
-
 ```text
 Pipeline
 │
@@ -56,7 +57,6 @@ Pipeline
 ```
 
 Если в одном stage несколько jobs, они могут выполняться параллельно:
-
 ```yaml
 stages:
   - test
@@ -81,13 +81,11 @@ test
 Следующий stage по умолчанию начинается только после успешного завершения предыдущего.
 
 То есть:
-
 ```text
 Stage = группа jobs одного этапа
 ```
 
 Например:
-
 ```text
 test
 build
