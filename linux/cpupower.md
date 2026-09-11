@@ -139,13 +139,11 @@ sudo cpupower frequency-set -u 3GHz
 ```
 
 `cpupower` работает с теми же настройками ядра, которые доступны через [[sys|sysfs]]:
-
 ```text
 /sys/devices/system/cpu/cpufreq/
 ```
 
 Например:
-
 ```text
 scaling_governor
 scaling_min_freq
@@ -155,7 +153,6 @@ scaling_driver
 ```
 
 Упрощённо:
-
 ```text
 sysfs
 → прямой интерфейс ядра
@@ -179,7 +176,6 @@ cpupower monitor
 ```
 
 Главная схема:
-
 ```text
 Scheduler видит нагрузку
         ↓
