@@ -56,7 +56,6 @@ sudo dmidecode -t 17
 ```
 
 Полезные строковые запросы:
-
 ```bash
 sudo dmidecode -s system-manufacturer
 # производитель компьютера
@@ -72,7 +71,6 @@ sudo dmidecode -s bios-version
 ```
 
 Пример для RAM:
-
 ```text
 Memory Device
     Size: 16 GB
