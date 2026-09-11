@@ -2,9 +2,9 @@
 created-dt: 2026-01-29 08:28
 tags:
   - review
-sr-due: 2026-10-26
-sr-interval: 63
-sr-ease: 230
+sr-due: 2026-10-13
+sr-interval: 32
+sr-ease: 210
 ---
 Команда в [[Linux]] для вывода первых строк файла или входного потока.
 ```bash
