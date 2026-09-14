@@ -2,8 +2,8 @@
 created-dt: 2026-06-02 11:06
 tags:
   - review
-sr-due: 2026-09-12
-sr-interval: 61
+sr-due: 2027-02-16
+sr-interval: 155
 sr-ease: 250
 ---
 Команда в [[Linux]] для запуска всех исполняемых файлов из каталога.
