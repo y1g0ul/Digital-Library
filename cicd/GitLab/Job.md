@@ -2,6 +2,9 @@
 created-dt: 2026-09-14 14:29
 tags:
   - review
+sr-due: 2026-09-17
+sr-interval: 3
+sr-ease: 250
 ---
 Отдельная задача внутри pipeline в GitLab.
 
