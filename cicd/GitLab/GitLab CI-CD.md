@@ -16,7 +16,7 @@ Pipeline - конкретный запуск CI/CD-процесса в [[GitLab]
 - API-вызов;
 - запуск другим [[cicd/GitLab/pipeline|pipeline]].
 
-Pipeline описывается через `.gitlab-ci.yml` и состоит из [[cicd/GitLab/job|job]]s, которые обычно объединяются в [[stage]]s.
+Pipeline описывается через `.gitlab-ci.yml` и состоит из [[cicd/GitLab/Job|Job]]s, которые обычно объединяются в [[stage]]s.
 
 Пример:
 ```yaml

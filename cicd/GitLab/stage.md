@@ -8,7 +8,7 @@ sr-ease: 248
 ---
 Этап [[cicd/GitLab/pipeline|pipeline]] в [[GitLab]].
 
-[[cicd/GitLab/job|job]]s можно объединять в stages, чтобы задать общий порядок выполнения.
+[[cicd/GitLab/Job|Job]]s можно объединять в stages, чтобы задать общий порядок выполнения.
 
 Пример:
 ```yaml
