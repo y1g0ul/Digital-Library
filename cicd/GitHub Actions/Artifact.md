@@ -2,8 +2,8 @@
 created-dt: 2026-08-05 12:43
 tags:
   - review
-sr-due: 2026-09-12
-sr-interval: 24
+sr-due: 2026-11-16
+sr-interval: 63
 sr-ease: 250
 ---
 Файл или набор файлов, созданных во время выполнения [[cicd/GitHub Actions/Job]],
