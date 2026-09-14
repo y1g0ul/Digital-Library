@@ -2,8 +2,8 @@
 created-dt: 2026-07-23 12:46
 tags:
   - review
-sr-due: 2026-09-13
-sr-interval: 32
+sr-due: 2026-12-02
+sr-interval: 79
 sr-ease: 244
 ---
 Утилита в [[Linux]] (Ubuntu) для настройки сетевых интерфейсов с помощью YAML-конфигурации. 
