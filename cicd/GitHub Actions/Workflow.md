@@ -33,7 +33,7 @@ GitHub Actions:
 GitLab CI:
 `.gitlab-ci.yml`
 
-При необходимости можно отключить в интерфейсе сервиса, в описании [[commit]] указать `[actions skip]` или в самом [[YAML]] файле в [[Event]]s указать `workflow_dispatch` (ручной запуск).
+При необходимости можно отключить в интерфейсе сервиса, в описании [[commit]] указать `[actions skip]` или в самом [[cicd/GitHub Actions/YAML]] файле в [[Event]]s указать `workflow_dispatch` (ручной запуск).
 
 Для запуска последовательно используется параметр `workflow_run` в [[Event]]. И так же в зависимости от результата работы прошлого Workflow могут меняться [[cicd/GitHub Actions/Job]]s.
 ``` yaml
