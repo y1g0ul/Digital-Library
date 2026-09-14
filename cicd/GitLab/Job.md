@@ -68,7 +68,6 @@ build:
 ```
 
 То есть:
-
 ```text
 Job
 └── script
