@@ -15,7 +15,7 @@ deploy:
     - if: '$CI_COMMIT_BRANCH == "main"'
 ```
 
-Job `deploy` попадёт в pipeline только если текущая ветка — `main`.
+Job `deploy` попадёт в pipeline только если текущая ветка - `main`.
 
 Общая логика:
 ```text
