@@ -48,7 +48,6 @@ Runner - это не само окружение выполнения.
 Он использует **executor**, который определяет, где и как будет выполняться job.
 
 Частые варианты:
-
 ```text
 Runner
 ├── Shell executor
@@ -57,7 +56,6 @@ Runner
 ```
 
 Например при Docker executor:
-
 ```yaml
 test:
   image: python:3.13
@@ -81,7 +79,6 @@ Runner запускает container python:3.13
 ```
 
 При Shell executor команды выполняются прямо в системе Runner:
-
 ```text
 Runner host
   ↓
