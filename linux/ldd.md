@@ -2,8 +2,8 @@
 created-dt: 2026-09-10 10:32
 tags:
   - review
-sr-due: 2026-09-14
-sr-interval: 3
+sr-due: 2026-09-22
+sr-interval: 8
 sr-ease: 250
 ---
 Команда в [[Linux]] для просмотра динамических библиотек, которые нужны исполняемому файлу или другой shared library.
