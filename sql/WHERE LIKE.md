@@ -2,8 +2,8 @@
 created-dt: 2026-09-03 13:15
 tags:
   - review
-sr-due: 2026-09-13
-sr-interval: 7
+sr-due: 2026-10-02
+sr-interval: 18
 sr-ease: 250
 ---
 `LIKE` используется вместе с [WHERE](WHERE) для поиска строк по шаблону.
