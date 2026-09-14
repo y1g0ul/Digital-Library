@@ -6,7 +6,7 @@ tags:
 YAML - текстовый формат описания структурированных данных.
 
 Часто используется для конфигурационных файлов:
-- GitLab CI/CD;
+- [[GitLab]] CI/CD;
 - GitHub Actions;
 - Docker Compose;
 - Kubernetes;
@@ -190,7 +190,6 @@ deploy:
 ```
 
 Здесь YAML описывает структуру GitLab CI/CD:
-
 ```text
 stages
 ├── test

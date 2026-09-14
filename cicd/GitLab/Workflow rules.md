@@ -3,7 +3,7 @@ created-dt: 2026-09-14 15:54
 tags:
   - review
 ---
-`workflow:rules` - глобальные правила, которые определяют, нужно ли вообще создавать pipeline.
+`workflow:rules` - глобальные правила, которые определяют, нужно ли вообще создавать [[cicd/GitLab/pipeline|pipeline]].
 
 Пример:
 ```yaml

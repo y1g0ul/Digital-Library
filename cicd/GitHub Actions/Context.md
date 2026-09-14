@@ -15,7 +15,7 @@ sr-ease: 250
 - `vars` - Переменные конфигурации
 - `secrets` - Секреты
 - `inputs` - Входные параметры workflow_dispatch / workflow_call
-- `runner` - Информация о [[Runner]]
+- `runner` - Информация о [[cicd/GitHub Actions/Runner]]
 - `job` - Информация о текущем [[cicd/GitHub Actions/Job|Job]]
 - `steps` - Информация о выполненных [[Step]]s
 - `needs` - Результаты и данные [[cicd/GitHub Actions/Job|Job]], от которых зависит текущий [[cicd/GitHub Actions/Job|Job]]
