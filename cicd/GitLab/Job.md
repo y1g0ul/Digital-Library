@@ -81,7 +81,6 @@ Job
 Job выполняет GitLab Runner.
 
 Схема:
-
 ```text
 GitLab
   ↓
@@ -93,16 +92,12 @@ Runner
 ```
 
 Runner может выполнять job, например:
-
 - напрямую в системе через Shell;
-    
-- внутри Docker container;
-    
+- внутри Docker [[container]];
 - в Kubernetes.
-    
+
 
 Например:
-
 ```yaml
 test:
   image: python:3.13
@@ -116,7 +111,6 @@ Runner запускает окружение с образом `python:3.13` и 
 ### Условия запуска
 
 Job может иметь `rules`, которые определяют, должна ли она попасть в pipeline:
-
 ```yaml
 deploy:
   stage: deploy
@@ -130,13 +124,11 @@ deploy:
 Эта job попадёт в pipeline только при выполнении условия.
 
 Коротко:
-
 ```text
 Job = отдельная задача pipeline
 ```
 
 Она:
-
 ```text
 относится к stage
 ↓
