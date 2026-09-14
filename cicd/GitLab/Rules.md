@@ -31,14 +31,12 @@ GitLab проверяет rules каждой job
 ### `if`
 
 Позволяет проверить условие:
-
 ```yaml
 rules:
   - if: '$CI_COMMIT_BRANCH == "main"'
 ```
 
 Можно использовать встроенные CI/CD variables:
-
 ```text
 CI_COMMIT_BRANCH
 CI_PIPELINE_SOURCE
@@ -46,7 +44,6 @@ CI_COMMIT_TAG
 ```
 
 Например запускать job только для Merge Request:
-
 ```yaml
 rules:
   - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
@@ -71,7 +68,6 @@ GitLab использует первое совпавшее правило.
 ### `changes`
 
 Job можно запускать только при изменении определённых файлов:
-
 ```yaml
 rules:
   - changes:
@@ -85,7 +81,6 @@ rules:
 ### `exists`
 
 Можно проверить наличие файла:
-
 ```yaml
 rules:
   - exists:
@@ -99,7 +94,6 @@ Job попадёт в pipeline только если файл существуе
 ### `when`
 
 Через `when` можно определить поведение job:
-
 ```yaml
 rules:
   - if: '$CI_COMMIT_BRANCH == "main"'
@@ -109,7 +103,6 @@ rules:
 Теперь job появится в pipeline, но запустится только вручную.
 
 Частые значения:
-
 ```text
 on_success
 manual
@@ -118,7 +111,6 @@ never
 ```
 
 Например:
-
 ```yaml
 rules:
   - if: '$CI_COMMIT_BRANCH == "main"'
@@ -130,13 +122,11 @@ rules:
 ---
 
 Главная идея:
-
 ```text
 rules = фильтр для job
 ```
 
 То есть:
-
 ```text
 pipeline создан
   ↓
@@ -149,7 +139,6 @@ job подходит?
 ```
 
 Не путать с:
-
 ```text
 workflow:rules
 ```
