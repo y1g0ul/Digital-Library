@@ -92,22 +92,14 @@ script
 Runner может предоставляться GitLab или быть установлен самостоятельно.
 
 Self-hosted Runner часто используют, когда нужен:
-
 - доступ к внутренней сети;
-    
 - доступ к production-серверам;
-    
 - Docker daemon;
-    
 - Kubernetes cluster;
-    
 - специальное ПО или оборудование;
-    
 - собственные ресурсы.
-    
 
 Например:
-
 ```text
 GitLab
    ↓
@@ -119,14 +111,12 @@ production server
 ```
 
 Главная идея:
-
 ```text
 GitLab описывает и координирует CI/CD
 Runner физически выполняет jobs
 ```
 
 Не путать:
-
 ```text
 Runner
 → исполнитель jobs
