@@ -58,7 +58,6 @@ Job
 ```
 
 в GitLab внутри job чаще просто выполняется список команд:
-
 ```yaml
 build:
   stage: build
