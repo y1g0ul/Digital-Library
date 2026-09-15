@@ -2,8 +2,8 @@
 created-dt: 2026-07-28 11:52
 tags:
   - review
-sr-due: 2026-09-15
-sr-interval: 29
+sr-due: 2026-11-24
+sr-interval: 70
 sr-ease: 241
 ---
 Cобытие, которое запускает выполнение [[cicd/GitHub Actions/Pipeline|Pipeline]] ([[Workflow]]).
