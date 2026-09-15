@@ -64,7 +64,6 @@ backup.timer
 ```
 
 Посмотреть путь конкретного юнита:
-
 ```bash
 systemctl show nginx.service -p FragmentPath
 ```
