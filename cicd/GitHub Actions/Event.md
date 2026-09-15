@@ -6,7 +6,7 @@ sr-due: 2026-09-15
 sr-interval: 29
 sr-ease: 241
 ---
-Cобытие, которое запускает выполнение [[cicd/GitHub Actions/Pipeline]] ([[Workflow]]).
+Cобытие, которое запускает выполнение [[cicd/GitHub Actions/Pipeline|Pipeline]] ([[Workflow]]).
 
 Примеры Event
 - `push` - отправка изменений в репозиторий.
