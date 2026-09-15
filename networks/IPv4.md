@@ -2,8 +2,8 @@
 created-dt: 2026-09-08 10:59
 tags:
   - review
-sr-due: 2026-09-15
-sr-interval: 5
+sr-due: 2026-09-28
+sr-interval: 13
 sr-ease: 239
 ---
 Internet Protocol version 4 - четвёртая версия протокола [[IP]]
