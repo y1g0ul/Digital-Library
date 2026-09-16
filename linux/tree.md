@@ -2,8 +2,8 @@
 created-dt: 2026-09-10 10:31
 tags:
   - review
-sr-due: 2026-09-16
-sr-interval: 2
+sr-due: 2026-09-21
+sr-interval: 5
 sr-ease: 230
 ---
 Команда в [[Linux]] для отображения структуры файлов и каталогов в виде дерева.
