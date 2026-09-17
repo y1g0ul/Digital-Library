@@ -2,8 +2,8 @@
 created-dt: 2026-09-14 15:34
 tags:
   - review
-sr-due: 2026-09-17
-sr-interval: 3
+sr-due: 2026-09-25
+sr-interval: 8
 sr-ease: 250
 ---
 Условия, которые определяют, должна ли конкретная job попасть в pipeline GitLab.
