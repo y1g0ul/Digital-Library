@@ -2,8 +2,8 @@
 created-dt: 2026-09-14 14:29
 tags:
   - review
-sr-due: 2026-09-17
-sr-interval: 3
+sr-due: 2026-09-25
+sr-interval: 8
 sr-ease: 250
 ---
 Отдельная задача внутри pipeline в GitLab.
@@ -109,7 +109,7 @@ test:
     - pytest
 ```
 
-Runner запускает окружение с образом `python:3.13` и выполняет внутри него `script`.
+[[cicd/GitLab/Runner|Runner]] запускает окружение с образом `python:3.13` и выполняет внутри него `script`.
 
 ### Условия запуска
 
