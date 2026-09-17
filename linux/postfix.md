@@ -2,8 +2,8 @@
 created-dt: 2026-06-18 19:39
 tags:
   - review
-sr-due: 2026-09-17
-sr-interval: 21
+sr-due: 2026-11-06
+sr-interval: 50
 sr-ease: 230
 ---
 Служба в [[Linux]] для отправки, получения и маршрутизации электронной почты (Mail Transfer Agent, MTA)
