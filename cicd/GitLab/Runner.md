@@ -2,8 +2,8 @@
 created-dt: 2026-09-14 16:04
 tags:
   - review
-sr-due: 2026-09-18
-sr-interval: 1
+sr-due: 2026-09-20
+sr-interval: 2
 sr-ease: 228
 ---
 Runner - компонент, который получает [[cicd/GitLab/Job|Job]] от GitLab и выполняет её. [[GitLab]] сам по себе не выполняет команды из `script`.
@@ -68,7 +68,6 @@ test:
 ```
 
 Процесс примерно такой:
-
 ```text
 GitLab
   ↓
