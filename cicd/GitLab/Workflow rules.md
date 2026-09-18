@@ -2,8 +2,8 @@
 created-dt: 2026-09-14 15:54
 tags:
   - review
-sr-due: 2026-09-18
-sr-interval: 3
+sr-due: 2026-09-25
+sr-interval: 7
 sr-ease: 250
 ---
 `workflow:rules` - глобальные правила, которые определяют, нужно ли вообще создавать [[cicd/GitLab/pipeline|pipeline]].
