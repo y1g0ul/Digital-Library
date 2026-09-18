@@ -2,8 +2,8 @@
 created-dt: 2026-09-02 09:31
 tags:
   - review
-sr-due: 2026-09-18
-sr-interval: 4
+sr-due: 2026-09-24
+sr-interval: 6
 sr-ease: 142
 ---
 Это системные потоки ядра [[Linux]], которые выполняют **отложенную работу ядра** через механизм `workqueue`.
