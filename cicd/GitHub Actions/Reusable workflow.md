@@ -2,8 +2,8 @@
 created-dt: 2026-08-07 12:15
 tags:
   - review
-sr-due: 2026-09-18
-sr-interval: 11
+sr-due: 2026-10-12
+sr-interval: 24
 sr-ease: 230
 ---
 [[Workflow]], который можно вызывать из другого Workflow
