@@ -69,7 +69,6 @@ ORDER BY country ASC, age DESC;
 Сначала строки сортируются по `country`, а внутри одинаковых стран - по `age` по убыванию.
 
 Например:
-
 ```text
 Germany  Bob   31
 Germany  Kate  22

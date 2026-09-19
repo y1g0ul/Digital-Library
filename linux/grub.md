@@ -2,9 +2,9 @@
 created-dt: 2026-01-20 07:11
 tags:
   - review
-sr-due: 2026-09-19
-sr-interval: 148
-sr-ease: 250
+sr-due: 2026-11-29
+sr-interval: 71
+sr-ease: 230
 ---
 Загрузчик в [[Linux]]. 
 - `/boot/grub/` - сам загрузчик
