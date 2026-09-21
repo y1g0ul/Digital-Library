@@ -90,8 +90,8 @@ tags:
 - [x] Добавление правил
 - [x] Удаление правил
 - [x] Политики по умолчанию
-- [ ] Сохранение правил
-- [ ] Контрольные вопросы
+- [x] Сохранение правил
+- [x] Контрольные вопросы
 
 ### Bash
 - [x] История Bash
@@ -152,8 +152,8 @@ tags:
 - [x] Команды Linux
 - [x] Управление пакетами
 - [x] Службы
-- [ ] Маршрутизация
-- [ ] DNS
+- [x] Маршрутизация
+- [x] DNS
 
 ## Виртуализация
 - [x] VirtualBox
@@ -184,7 +184,7 @@ tags:
 - [ ] SSL
 - [ ] YAML
 - [ ] JSONPath
-- [ ] Развертывание приложений
+- [x] Развертывание приложений
 
 ---
 
@@ -255,23 +255,23 @@ tags:
 # 🚀 GitLab CI/CD
 
 ## Основы
-- [ ] Что такое CI/CD
+- [x] Что такое CI/CD
 - [x] GitLab CI
 - [x] GitLab Runner
 
 ## Pipeline
-- [ ] YAML
-- [ ] .gitlab-ci.yml
-- [ ] Stage
-- [ ] Job
-- [ ] Variables
+- [x] YAML
+- [x] .gitlab-ci.yml
+- [x] Stage
+- [x] Job
+- [x] Variables
 - [ ] Needs
-- [ ] Artifacts
-- [ ] Rules
-- [ ] Build
-- [ ] Test
+- [x] Artifacts
+- [x] Rules
+- [x] Build
+- [x] Test
 - [ ] Lint
-- [ ] Deploy
+- [x] Deploy
 
 ## Продвинутые темы
 - [ ] YAML Anchors
