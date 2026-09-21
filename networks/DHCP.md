@@ -2,8 +2,8 @@
 created-dt: 2026-09-01 10:48
 tags:
   - review
-sr-due: 2026-09-20
-sr-interval: 2
+sr-due: 2026-09-27
+sr-interval: 6
 sr-ease: 225
 ---
 Dynamic Host Configuration Protocol - протокол, который автоматически выдаёт устройствам сетевые настройки.
