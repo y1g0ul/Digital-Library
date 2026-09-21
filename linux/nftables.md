@@ -2,7 +2,7 @@
 created-dt: 2026-08-03 11:11
 tags:
   - review
-sr-due: 2026-09-20
+sr-due: 2026-09-22
 sr-interval: 1
 sr-ease: 130
 ---

@@ -2,8 +2,8 @@
 created-dt: 2026-09-11 14:48
 tags:
   - review
-sr-due: 2026-09-20
-sr-interval: 6
+sr-due: 2026-10-07
+sr-interval: 16
 sr-ease: 248
 ---
 Этап [[cicd/GitLab/pipeline|pipeline]] в [[GitLab]].
