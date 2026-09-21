@@ -2,8 +2,8 @@
 created-dt: 2026-09-09 14:44
 tags:
   - review
-sr-due: 2026-09-21
-sr-interval: 7
+sr-due: 2026-10-08
+sr-interval: 17
 sr-ease: 243
 ---
 Отдельная линия выполнения внутри [[процесс]]a.
