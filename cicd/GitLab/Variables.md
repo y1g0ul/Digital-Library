@@ -56,14 +56,12 @@ Settings
 ```
 
 Например:
-
 ```
 Key:   SERVER_IP
 Value: 192.168.1.100
 ```
 
 Использование:
-
 ```
 deploy:
   script:
@@ -79,7 +77,6 @@ deploy:
 В GitLab нет отдельного механизма `secrets`, полностью аналогичного GitHub Actions Secrets. Чувствительные значения также можно хранить в CI/CD Variables.
 
 Например:
-
 ```
 SSH_PRIVATE_KEY
 DB_PASSWORD
