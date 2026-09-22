@@ -2,6 +2,9 @@
 created-dt: 2026-09-21 18:14
 tags:
   - review
+sr-due: 2026-09-24
+sr-interval: 2
+sr-ease: 244
 ---
 Механизм [[GitLab]] сохранения файлов между [[cicd/GitLab/Job|Job]]s и [[cicd/GitLab/pipeline|pipeline]]s для ускорения их выполнения.
 
@@ -141,7 +144,7 @@ Job использует существующий кэш, но не загруж
 
 ### Cache и Artifacts
 
-| Cache                                | [[cicd/GitLab/Artifact]]                                                |
+| Cache                                | [[cicd/GitLab/Artifact\|Artifact]]                           |
 | ------------------------------------ | ------------------------------------------------------------ |
 | Ускоряет выполнение jobs             | Сохраняет результаты jobs                                    |
 | Может использоваться между pipelines | Обычно используется для передачи результатов внутри pipeline |
