@@ -2,8 +2,8 @@
 created-dt: 2026-08-18 09:15
 tags:
   - review
-sr-due: 2026-09-23
-sr-interval: 2
+sr-due: 2026-09-26
+sr-interval: 3
 sr-ease: 130
 ---
 Основные каталоги файловой системы [[Linux]] и их назначение.

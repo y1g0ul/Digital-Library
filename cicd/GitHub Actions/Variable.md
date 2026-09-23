@@ -2,8 +2,8 @@
 created-dt: 2026-08-04 10:35
 tags:
   - review
-sr-due: 2026-09-23
-sr-interval: 12
+sr-due: 2026-10-21
+sr-interval: 28
 sr-ease: 231
 ---
 Значение, используемое для хранения настроек и данных [[Workflow]].
