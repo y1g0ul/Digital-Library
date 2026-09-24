@@ -2,8 +2,8 @@
 created-dt: 2026-08-03 01:48
 tags:
   - review
-sr-due: 2026-09-24
-sr-interval: 31
+sr-due: 2026-12-10
+sr-interval: 77
 sr-ease: 249
 ---
 ``` yaml
