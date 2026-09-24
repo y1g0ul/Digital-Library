@@ -2,8 +2,8 @@
 created-dt: 2026-09-02 10:35
 tags:
   - review
-sr-due: 2026-09-24
-sr-interval: 9
+sr-due: 2026-10-12
+sr-interval: 18
 sr-ease: 210
 ---
 Утилита в [[Linux]] для создания, настройки, мониторинга и восстановления программных [[RAID]]-массивов.
@@ -289,7 +289,6 @@ sudo mdadm --assemble --scan
 После удаления массива на дисках могут оставаться metadata RAID.
 
 Их можно удалить:
-
 ```bash
 sudo mdadm --zero-superblock /dev/sdb
 sudo mdadm --zero-superblock /dev/sdc
