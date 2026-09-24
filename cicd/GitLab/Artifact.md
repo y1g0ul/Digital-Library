@@ -2,8 +2,8 @@
 created-dt: 2026-09-21 18:07
 tags:
   - review
-sr-due: 2026-09-24
-sr-interval: 2
+sr-due: 2026-09-29
+sr-interval: 5
 sr-ease: 230
 ---
 **Artifact** - файл или набор файлов, созданных во время выполнения job и сохранённых [[GitLab]].
