@@ -2,8 +2,8 @@
 created-dt: 2026-09-02 09:31
 tags:
   - review
-sr-due: 2026-09-24
-sr-interval: 6
+sr-due: 2026-10-02
+sr-interval: 8
 sr-ease: 142
 ---
 Это системные потоки ядра [[Linux]], которые выполняют **отложенную работу ядра** через механизм `workqueue`.
@@ -104,7 +104,6 @@ kworker/3:2
 worker, работающий с CPU 3.
 
 Также встречается:
-
 ```text
 kworker/u16:2
 ```
