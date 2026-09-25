@@ -2,8 +2,8 @@
 created-dt: 2026-03-16 11:01
 tags:
   - review
-sr-due: 2026-09-25
-sr-interval: 115
+sr-due: 2027-07-13
+sr-interval: 291
 sr-ease: 250
 ---
 File System Check - утилита в [[Linux]] для проверки и исправления файловых систем.
