@@ -2,8 +2,8 @@
 created-dt: 2026-09-22 15:55
 tags:
   - review
-sr-due: 2026-09-25
-sr-interval: 3
+sr-due: 2026-10-03
+sr-interval: 8
 sr-ease: 268
 ---
 Preboot Execution Environment - механизм загрузки компьютера по сети без использования локального диска или заранее установленной операционной системы.

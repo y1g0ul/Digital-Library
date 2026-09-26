@@ -2,8 +2,8 @@
 created-dt: 2026-09-04 10:43
 tags:
   - review
-sr-due: 2026-09-25
-sr-interval: 11
+sr-due: 2026-10-20
+sr-interval: 25
 sr-ease: 230
 ---
 POSIX (Portable Operating System Interface) - набор стандартов, описывающих общие интерфейсы и поведение Unix-подобных операционных систем. Главная задача POSIX - обеспечить **переносимость программ** между разными ОС.

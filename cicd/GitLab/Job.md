@@ -2,8 +2,8 @@
 created-dt: 2026-09-14 14:29
 tags:
   - review
-sr-due: 2026-09-25
-sr-interval: 8
+sr-due: 2026-10-15
+sr-interval: 20
 sr-ease: 250
 ---
 Отдельная задача внутри pipeline в GitLab.
@@ -44,7 +44,6 @@ script:
 - команды, которые она выполняет.
 
 Общая структура:
-
 ```text
 Pipeline
 └── Stage
