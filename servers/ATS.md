@@ -2,6 +2,9 @@
 created-dt: 2026-09-27 18:12
 tags:
   - review
+sr-due: 2026-09-30
+sr-interval: 3
+sr-ease: 250
 ---
 **ATS - Automatic Transfer Switch.**
 
