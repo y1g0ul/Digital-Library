@@ -2,8 +2,8 @@
 created-dt: 2026-09-08 10:59
 tags:
   - review
-sr-due: 2026-09-27
-sr-interval: 12
+sr-due: 2026-10-26
+sr-interval: 29
 sr-ease: 239
 ---
 Internet Protocol version 6 - современная версия протокола [[IP]], созданная в первую очередь из-за нехватки IPv4-адресов.
