@@ -130,6 +130,6 @@ BMC   → сеть управления
 
 Обычно через него работают:
 - Web UI;
-- SSH;
+- [[networks/SSH|SSH]];
 - SNMP;
 - API.
