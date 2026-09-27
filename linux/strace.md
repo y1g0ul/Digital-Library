@@ -2,8 +2,8 @@
 created-dt: 2026-07-17 12:28
 tags:
   - review
-sr-due: 2026-09-26
-sr-interval: 3
+sr-due: 2026-10-02
+sr-interval: 5
 sr-ease: 130
 ---
 Команда в [[Linux]] для трассировки системных вызовов и сигналов [[процесс]]ов.
