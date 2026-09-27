@@ -2,8 +2,8 @@
 created-dt: 2026-08-24 19:42
 tags:
   - review
-sr-due: 2026-09-27
-sr-interval: 13
+sr-due: 2026-10-28
+sr-interval: 31
 sr-ease: 230
 ---
 Система в [[Linux]] для запуска команд от имени другого пользователя, чаще всего `root`, с учётом правил из `/etc/sudoers`.

@@ -2,9 +2,9 @@
 created-dt: 2026-01-14 10:56
 tags:
   - review
-sr-due: 2026-09-27
-sr-interval: 155
-sr-ease: 250
+sr-due: 2026-12-11
+sr-interval: 75
+sr-ease: 230
 ---
 Команда для сборки [[image]] в [[docker]].
 ``` shell
