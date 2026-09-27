@@ -2,8 +2,8 @@
 created-dt: 2026-06-21 11:19
 tags:
   - review
-sr-due: 2026-09-26
-sr-interval: 11
+sr-due: 2026-10-24
+sr-interval: 27
 sr-ease: 232
 ---
 `User Datagram Protocol` - транспортный протокол для быстрой передачи данных **без установки соединения** и без гарантии доставки.
