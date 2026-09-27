@@ -2,8 +2,8 @@
 created-dt: 2026-06-01 11:14
 tags:
   - review
-sr-due: 2026-09-26
-sr-interval: 27
+sr-due: 2026-11-29
+sr-interval: 63
 sr-ease: 230
 ---
 Команда в [[Linux]] для удаления группы
