@@ -73,7 +73,6 @@ ethtool -S enp3s0
 ```
 
 Можно увидеть:
-
 ```
 rx_packets
 tx_packets
@@ -95,7 +94,6 @@ ethtool -k enp3s0
 ```
 
 Например:
-
 ```
 rx-checksumming
 tx-checksumming
@@ -104,7 +102,6 @@ generic-segmentation-offload
 ```
 
 Упрощённо:
-
 ```
 без offload
 CPU делает больше сетевой обработки
@@ -114,7 +111,6 @@ CPU делает больше сетевой обработки
 ```
 
 Изменить:
-
 ```
 sudo ethtool -K enp3s0 tso off
 # отключить TCP Segmentation Offload
@@ -130,7 +126,6 @@ sudo ethtool -s enp3s0 speed 1000 duplex full autoneg on
 ```
 
 В обычной ситуации лучше оставлять:
-
 ```
 Auto-negotiation: on
 ```
