@@ -38,7 +38,7 @@ sudo ifdown eth0
 /etc/network/interfaces
 ```
 
-Пример DHCP:
+Пример [[DHCP]]:
 ```text
 auto eth0
 iface eth0 inet dhcp
@@ -53,7 +53,7 @@ iface eth0 inet dhcp
 → IPv4-конфигурация eth0 через DHCP
 ```
 
-Пример статического IP:
+Пример статического [[networks/IP|IP]]:
 ```text
 auto eth0
 
