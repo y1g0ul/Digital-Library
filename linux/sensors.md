@@ -2,8 +2,8 @@
 created-dt: 2026-09-11 11:08
 tags:
   - review
-sr-due: 2026-09-28
-sr-interval: 5
+sr-due: 2026-10-11
+sr-interval: 13
 sr-ease: 230
 ---
 Команда в [[Linux]] из пакета `lm_sensors` для просмотра данных аппаратных датчиков.
