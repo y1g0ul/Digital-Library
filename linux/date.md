@@ -2,8 +2,8 @@
 created-dt: 2026-06-09 14:41
 tags:
   - review
-sr-due: 2026-09-30
-sr-interval: 26
+sr-due: 2026-11-30
+sr-interval: 60
 sr-ease: 230
 ---
 Команда в [[Linux]] для отображения и изменения даты и времени системы
