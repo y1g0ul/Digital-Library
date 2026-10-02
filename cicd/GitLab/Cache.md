@@ -2,8 +2,8 @@
 created-dt: 2026-09-21 18:14
 tags:
   - review
-sr-due: 2026-09-29
-sr-interval: 5
+sr-due: 2026-10-17
+sr-interval: 15
 sr-ease: 244
 ---
 Механизм [[GitLab]] сохранения файлов между [[cicd/GitLab/Job|Job]]s и [[cicd/GitLab/pipeline|pipeline]]s для ускорения их выполнения.
