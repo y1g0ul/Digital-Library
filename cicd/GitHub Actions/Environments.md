@@ -2,8 +2,8 @@
 created-dt: 2026-08-04 14:58
 tags:
   - review
-sr-due: 2026-10-03
-sr-interval: 27
+sr-due: 2026-12-09
+sr-interval: 65
 sr-ease: 230
 ---
 Отдельное окружение [[Workflow]]. У GitHub фактически есть несколько уровней хранения:

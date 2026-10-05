@@ -2,8 +2,8 @@
 created-dt: 2026-09-14 15:55
 tags:
   - review
-sr-due: 2026-10-03
-sr-interval: 11
+sr-due: 2026-11-04
+sr-interval: 30
 sr-ease: 248
 ---
 YAML - текстовый формат описания структурированных данных.
