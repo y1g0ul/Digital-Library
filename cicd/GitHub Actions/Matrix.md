@@ -2,8 +2,8 @@
 created-dt: 2026-08-06 11:47
 tags:
   - review
-sr-due: 2026-10-04
-sr-interval: 32
+sr-due: 2026-12-19
+sr-interval: 75
 sr-ease: 230
 ---
 Cпособ запустить один [[cicd/GitHub Actions/Job]] несколько раз

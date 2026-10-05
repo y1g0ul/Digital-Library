@@ -2,8 +2,8 @@
 created-dt: 2026-09-15 10:21
 tags:
   - review
-sr-due: 2026-10-04
-sr-interval: 12
+sr-due: 2026-11-04
+sr-interval: 30
 sr-ease: 242
 ---
 `Ethernet` - технология передачи данных в локальных сетях.
