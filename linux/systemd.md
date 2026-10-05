@@ -18,3 +18,8 @@ sr-ease: 250
 
 Занимает [[PID]] = 1.
 
+Что бы понять что systemd используется в системе
+``` bash
+y1g0ul@fedora:~$ stat /sbin/init
+  Файл: /sbin/init -> ../lib/systemd/systemd
+```
