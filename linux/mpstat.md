@@ -2,8 +2,8 @@
 created-dt: 2026-08-24 11:26
 tags:
   - review
-sr-due: 2026-10-04
-sr-interval: 19
+sr-due: 2026-11-14
+sr-interval: 40
 sr-ease: 210
 ---
 Команда в [[Linux]] для просмотра загрузки CPU по отдельным логическим процессорам.
