@@ -2,6 +2,9 @@
 created-dt: 2026-09-28 17:17
 tags:
   - review
+sr-due: 2026-10-09
+sr-interval: 3
+sr-ease: 263
 ---
 Команда в [[Linux]] для просмотра и управления [[DNS]]-настройками через [[systemd]].
 
