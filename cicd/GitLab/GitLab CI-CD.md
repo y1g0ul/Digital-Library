@@ -2,8 +2,8 @@
 created-dt: 2026-09-11 13:47
 tags:
   - review
-sr-due: 2026-10-06
-sr-interval: 15
+sr-due: 2026-11-13
+sr-interval: 38
 sr-ease: 248
 ---
 Pipeline - конкретный запуск CI/CD-процесса в [[GitLab]].
