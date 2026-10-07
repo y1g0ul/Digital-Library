@@ -2,8 +2,8 @@
 created-dt: 2026-09-07 13:54
 tags:
   - review
-sr-due: 2026-10-07
-sr-interval: 16
+sr-due: 2026-11-14
+sr-interval: 38
 sr-ease: 230
 ---
 GitLab имеет встроенную систему CI/CD, которая описывается в файле `.gitlab-ci.yml`.
