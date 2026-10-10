@@ -2,8 +2,8 @@
 created-dt: 2026-09-27 17:16
 tags:
   - review
-sr-due: 2026-10-10
-sr-interval: 8
+sr-due: 2026-10-30
+sr-interval: 20
 sr-ease: 232
 ---
 ## Накопители

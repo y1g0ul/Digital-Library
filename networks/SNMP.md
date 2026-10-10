@@ -2,8 +2,8 @@
 created-dt: 2026-09-27 17:52
 tags:
   - review
-sr-due: 2026-10-10
-sr-interval: 9
+sr-due: 2026-11-02
+sr-interval: 23
 sr-ease: 250
 ---
 **SNMP - Simple Network Management Protocol.**

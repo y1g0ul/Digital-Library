@@ -2,8 +2,8 @@
 created-dt: 2026-09-08 13:37
 tags:
   - review
-sr-due: 2026-10-10
-sr-interval: 21
+sr-due: 2026-12-04
+sr-interval: 55
 sr-ease: 250
 ---
 `ORDER BY` - оператор [[SQL]], который используется для **сортировки результата запроса**.

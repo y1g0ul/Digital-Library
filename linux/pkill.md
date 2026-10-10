@@ -2,8 +2,8 @@
 created-dt: 2026-02-25 09:31
 tags:
   - review
-sr-due: 2026-10-10
-sr-interval: 136
+sr-due: 2027-09-15
+sr-interval: 340
 sr-ease: 250
 ---
 Утилита в [[Linux]] для завершения процессов по имени или другим критериям.  

@@ -2,8 +2,8 @@
 created-dt: 2026-09-22 15:50
 tags:
   - review
-sr-due: 2026-10-10
-sr-interval: 13
+sr-due: 2026-11-14
+sr-interval: 35
 sr-ease: 270
 ---
 Философия Unix является подходом, которому следует архитектура UNIX-подобных систем. 
