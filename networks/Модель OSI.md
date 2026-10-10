@@ -2,8 +2,8 @@
 created-dt: 2026-06-21 10:34
 tags:
   - review
-sr-due: 2026-10-09
-sr-interval: 7
+sr-due: 2026-10-20
+sr-interval: 10
 sr-ease: 130
 ---
 Модель OSI (Open Systems Interconnection) - это теоретическая модель, в которой описан процесс обмена данными между сетевыми устройствами. 

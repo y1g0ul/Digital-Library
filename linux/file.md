@@ -2,9 +2,9 @@
 created-dt: 2026-01-06 02:11
 tags:
   - review
-sr-due: 2026-10-09
-sr-interval: 121
-sr-ease: 230
+sr-due: 2026-12-10
+sr-interval: 61
+sr-ease: 210
 ---
 Команда в [[Linux]] которая определяет тип содержимого файла по характерным сигнатурам.
 ``` bash

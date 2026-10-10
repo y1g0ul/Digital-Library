@@ -2,8 +2,8 @@
 created-dt: 2026-09-28 16:44
 tags:
   - review
-sr-due: 2026-10-09
-sr-interval: 3
+sr-due: 2026-10-18
+sr-interval: 8
 sr-ease: 260
 ---
 Команда в [[Linux]] для выполнения DNS-запросов.
