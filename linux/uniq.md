@@ -2,8 +2,8 @@
 created-dt: 2026-02-03 12:16
 tags:
   - review
-sr-due: 2026-10-12
-sr-interval: 150
+sr-due: 2027-10-22
+sr-interval: 375
 sr-ease: 250
 ---
 Удаление повторяющихся строк в [[Linux]]. Часто используется с [[sort]]
