@@ -2,9 +2,9 @@
 created-dt: 2026-09-26 13:58
 tags:
   - review
-sr-due: 2026-10-13
-sr-interval: 11
-sr-ease: 253
+sr-due: 2026-10-19
+sr-interval: 6
+sr-ease: 233
 ---
 Команда в [[Linux]] для быстрого получения сводной информации о системе и железе.
 
