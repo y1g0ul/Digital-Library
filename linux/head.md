@@ -2,8 +2,8 @@
 created-dt: 2026-01-29 08:28
 tags:
   - review
-sr-due: 2026-10-13
-sr-interval: 32
+sr-due: 2026-12-20
+sr-interval: 68
 sr-ease: 210
 ---
 Команда в [[Linux]] для вывода первых строк файла или входного потока.
