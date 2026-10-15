@@ -2,9 +2,9 @@
 created-dt: 2025-12-16 09:24
 tags:
   - review
-sr-due: 2026-10-14
-sr-interval: 183
-sr-ease: 250
+sr-due: 2027-01-16
+sr-interval: 93
+sr-ease: 230
 ---
 Команда в [[Linux]] которая выводит информацию из [[inode]] в человеко-читаемом формате.
 ``` bash
