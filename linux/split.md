@@ -2,9 +2,9 @@
 created-dt: 2026-02-02 11:33
 tags:
   - review
-sr-due: 2026-10-15
-sr-interval: 155
-sr-ease: 252
+sr-due: 2027-01-02
+sr-interval: 78
+sr-ease: 232
 ---
 Команда в [[Linux]] для разбиения больших файлов на несколько частей меньшего размера.
 ``` bash 
