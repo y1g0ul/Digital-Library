@@ -2,8 +2,8 @@
 created-dt: 2026-07-14 13:29
 tags:
   - review
-sr-due: 2026-10-15
-sr-interval: 57
+sr-due: 2027-03-10
+sr-interval: 145
 sr-ease: 254
 ---
 Команда добавляет изменения из рабочей директории (Working Directory) в область подготовки (Staging Area). После этого изменения попадут в следующий [[commit]].
